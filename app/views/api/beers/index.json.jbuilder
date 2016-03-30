@@ -5,4 +5,7 @@ json.array! @beers do |beer|
   json.country beer.country
   json.style beer.style
   json.abv beer.abv
+  json.country_image beer.country_image
+  json.brewery_image beer.brewery_image
+  json.simpstyle_image beer.simpstyle_image
 end
