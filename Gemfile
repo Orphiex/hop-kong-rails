@@ -33,6 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rack-cors', :require => 'rack/cors'
 gem 'bower'
 gem 'rails_12factor', group: :production
+gem 'devise_token_auth'
+gem 'omniauth'
 
 group :development, :test do
   gem "awesome_print"
