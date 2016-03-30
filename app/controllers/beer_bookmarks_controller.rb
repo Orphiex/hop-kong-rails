@@ -1,0 +1,3 @@
+class BeerBookmarksController < ApplicationController
+
+end
