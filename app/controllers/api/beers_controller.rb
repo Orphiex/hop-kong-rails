@@ -14,6 +14,37 @@ module Api
       end
     end
 
+    def all_styles
+      @styles = Beer.select(:simpstyle).distinct.pluck(:simpstyle)
+
+      if @styles.nil?
+        render json: { message: "Cannot find simpstyle" }, status: :not_found
+      else
+        render json: @styles
+      end
+    end
+
+    def all_breweries
+      @breweries = Beer.select(:brewery).distinct.pluck(:brewery)
+
+      if @breweries.nil?
+        render json: { message: "Cannot find breweries" }, status: :not_found
+      else
+        render json: @breweries
+      end
+    end
+
+    def all_locations
+      @locations = Vendor.select(:district).distinct.pluck(:district)
+
+      if @locations.nil?
+        render json: { message: "Cannot find locations" }, status: :not_found
+      else
+        render json: @locations
+      end
+    end
+
+
     # def create
     #   @beer = Beer.new(beer_params)
 
