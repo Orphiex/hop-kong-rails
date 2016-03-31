@@ -4,6 +4,11 @@ Rails.application.routes.draw do
   namespace :api do
     resources :beers, only: [:index, :show]
     resources :vendors, only: [:index, :show]
+
+    get '/beer_styles', to: 'beers#all_styles'
+    get '/beer_breweries', to: 'beers#all_breweries'
+    get '/beer_locations', to: 'beers#all_locations'
+
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
