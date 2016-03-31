@@ -18,7 +18,7 @@ module Api
       @styles = Beer.select(:simpstyle).distinct.pluck(:simpstyle)
 
       if @styles.nil?
-        render json: { message: "Cannot find simpstyle" }, status: :not_found
+        render json: { message: "Cannot find styles" }, status: :not_found
       else
         render json: @styles
       end
@@ -42,6 +42,10 @@ module Api
       else
         render json: @locations
       end
+    end
+
+    def beer_results
+
     end
 
 
