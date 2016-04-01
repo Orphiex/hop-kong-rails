@@ -10,7 +10,17 @@ module Api
       if @vendor.nil?
         render json: { message: "Cannot find vendor" }, status: :not_found
       else
-        render json: @beer
+        render json: @vendor
+      end
+    end
+
+    def all_bars
+      @bars = VendorType.includes(:vendor).where(vendor_type: 'Bar').map(&:vendor)
+
+      if @bars.nil?
+        render json: { message: "Cannot find bars" }, status: :not_found
+      else
+        render json: @bars
       end
     end
 

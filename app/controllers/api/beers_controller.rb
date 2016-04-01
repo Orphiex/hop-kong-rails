@@ -44,8 +44,14 @@ module Api
       end
     end
 
-    def beer_results
+    def all_vendortypes
+      @vendortypes = VendorType.select(:vendor_type).distinct.pluck(:vendor_type)
 
+      if @vendortypes.nil?
+        render json: { message: "Cannot find vendor types" }, status: :not_found
+      else
+        render json: @vendortypes
+      end
     end
 
 
