@@ -14,6 +14,11 @@ module Api
       end
     end
 
+    def bars_results
+      @vendor = Vendor.all
+      render json: @vendor
+    end
+
     # def create
     #   @vendor = Vendor.new(vendor_params)
 
