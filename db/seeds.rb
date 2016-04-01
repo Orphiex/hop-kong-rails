@@ -82,6 +82,22 @@ v3 = Vendor.create({
   longitude: 114.0461143,
   has_tap: false
 })
+v4 = Vendor.create({
+  name: "The Globe",
+  image_url: "https://pbs.twimg.com/profile_images/580614677660590080/yQcirGXP_400x400.jpg",
+  street_address: "45-53A Graham Street",
+  district: "Central",
+  region: "Hong Kong Island",
+  phone_number: "2543-1941",
+  email: "toby@theglobe.com.hk",
+  website_url: "http://www.theglobe.com.hk",
+  facebook_url: "https://www.facebook_url.com/TheGlobeHK/",
+  twitter_url: "https://twitter_url.com/theglobehk",
+  instagram_url: "",
+  latitude: 22.2824128,
+  longitude: 114.1506178,
+  has_tap: true
+})
 
 
 
