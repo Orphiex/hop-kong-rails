@@ -19,6 +19,11 @@ module Api
       render json: @vendor
     end
 
+    def beers_results
+      @vendor = Vendor.all
+      render json: @vendor
+    end
+
     def vendor_details
       @vendor = Vendor.find_by_id(params[:id])
        if @vendor.nil?
