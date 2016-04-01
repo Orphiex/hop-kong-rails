@@ -45,8 +45,8 @@ v1 = Vendor.create({
   facebook_url: "https://www.facebook_url.com/americraftimports/",
   twitter_url: "https://twitter_url.com/americrafthk",
   instagram_url: "https://www.instagram_url.com/americraftimports/?hl=en",
-  longitude: 0,
-  latitude: 0,
+  latitude: 22.2876789,
+  longitude: 114.1461143,
   has_tap: false
 })
 
@@ -62,8 +62,8 @@ v2 = Vendor.create({
   facebook_url: "https://www.facebook_url.com/Beerhound-159350884216521/",
   twitter_url: "https://twitter_url.com/beerhoundhk",
   instagram_url: "",
-  longitude: 0,
-  latitude: 0,
+  latitude: 22.3876789,
+  longitude: 114.2461143,
   has_tap: false
 })
 v3 = Vendor.create({
@@ -78,8 +78,8 @@ v3 = Vendor.create({
   facebook_url: "https://www.facebook_url.com/Beers-R-Us-358651907577798/",
   twitter_url: "https://twitter_url.com/beersrushk",
   instagram_url: "https://www.instagram_url.com/beersrushkg/",
-  longitude: 0,
-  latitude: 0,
+  latitude: 22.1876789,
+  longitude: 114.0461143,
   has_tap: false
 })
 
