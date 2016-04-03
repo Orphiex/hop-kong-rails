@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     get '/beer_styles', to: 'beers#all_styles'
     get '/beer_breweries', to: 'beers#all_breweries'
     get '/beer_locations', to: 'beers#all_locations'
+    get '/vendor_types', to: 'beers#all_vendortypes'
+    get '/all_bars', to: 'vendors#all_bars'
 
   end
 

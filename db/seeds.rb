@@ -42,11 +42,11 @@ v1 = Vendor.create({
   phone_number: "9314-3330",
   email: "info@americraftimports.com",
   website_url: "http://americraftimports.com",
-  facebook_url: "https://www.facebook.com/americraftimports/",
-  twitter_url: "https://twitter.com/americrafthk",
-  instagram_url: "https://www.instagram.com/americraftimports/?hl=en",
-  longitude: 0,
-  latitude: 0,
+  facebook_url: "https://www.facebook_url.com/americraftimports/",
+  twitter_url: "https://twitter_url.com/americrafthk",
+  instagram_url: "https://www.instagram_url.com/americraftimports/?hl=en",
+  latitude: 22.2876789,
+  longitude: 114.1461143,
   has_tap: false
 })
 
@@ -62,8 +62,8 @@ v2 = Vendor.create({
   facebook_url: "https://www.facebook.com/Beerhound-159350884216521/",
   twitter_url: "https://twitter.com/beerhoundhk",
   instagram_url: "",
-  longitude: 0,
-  latitude: 0,
+  latitude: 22.3876789,
+  longitude: 114.2461143,
   has_tap: false
 })
 
@@ -76,12 +76,28 @@ v3 = Vendor.create({
   phone_number: "No phone number provided",
   email: "sales@beers-r-us.com",
   website_url: "http://www.beersrus.hk",
-  facebook_url: "https://www.facebook.com/Beers-R-Us-358651907577798/",
-  twitter_url: "https://twitter.com/beersrushk",
-  instagram_url: "https://www.instagram.com/beersrushkg/",
-  longitude: 0,
-  latitude: 0,
+  facebook_url: "https://www.facebook_url.com/Beers-R-Us-358651907577798/",
+  twitter_url: "https://twitter_url.com/beersrushk",
+  instagram_url: "https://www.instagram_url.com/beersrushkg/",
+  latitude: 22.1876789,
+  longitude: 114.0461143,
   has_tap: false
+})
+v4 = Vendor.create({
+  name: "The Globe",
+  image_url: "https://pbs.twimg.com/profile_images/580614677660590080/yQcirGXP_400x400.jpg",
+  street_address: "45-53A Graham Street",
+  district: "Central",
+  region: "Hong Kong Island",
+  phone_number: "2543-1941",
+  email: "toby@theglobe.com.hk",
+  website_url: "http://www.theglobe.com.hk",
+  facebook_url: "https://www.facebook_url.com/TheGlobeHK/",
+  twitter_url: "https://twitter_url.com/theglobehk",
+  instagram_url: "",
+  latitude: 22.2824128,
+  longitude: 114.1506178,
+  has_tap: true
 })
 
 v4 = Vendor.create
