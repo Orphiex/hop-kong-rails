@@ -25,7 +25,7 @@ module Api
     end
 
     def bars_results
-      @vendor = Vendor.all
+      @vendor = Vendor.where(vendor_type: 'Bar')
       render json: @vendor
     end
 
