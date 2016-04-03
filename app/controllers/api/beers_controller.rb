@@ -47,16 +47,16 @@ module Api
       end
     end
 
-    #obtains unique countries (eg Hong Kong, USA)
-    #def all_countries
-    # @countries = Beer.select(:country).order(:country).distinct.pluck(:country)
-    #
-    # if @countries.nil?
-    #    render json: { message: "Cannot find countries" }, status: :not_found
-    #  else
-    #    render json: @countries
-    #  end
-    #end
+    # obtains unique countries (eg Hong Kong, USA)
+    def all_countries
+     @countries = Beer.select(:country).order(:country).distinct.pluck(:country)
+
+     if @countries.nil?
+        render json: { message: "Cannot find countries" }, status: :not_found
+      else
+        render json: @countries
+      end
+    end
 
     def all_vendortypes
       @vendortypes = VendorType.select(:vendor_type).order(:vendor_type).distinct.pluck(:vendor_type)

@@ -1,6 +1,6 @@
 Vendor.destroy_all
 Beer.destroy_all
-Country.destroy_all
+#Country.destroy_all
 VendorType.destroy_all
 #User.destroy_all
 
