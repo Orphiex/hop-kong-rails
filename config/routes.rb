@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     resources :beers, only: [:index, :show]
     resources :vendors, only: [:index, :show]
 
-    get '/beer_results', to: 'beers#beer_results'
+    get '/beers_results', to: 'beers#beers_results'
     get '/bars_results', to: 'vendors#bars_results'
 
     get '/beer_styles', to: 'beers#all_styles'
