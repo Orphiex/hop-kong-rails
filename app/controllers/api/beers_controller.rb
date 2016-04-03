@@ -62,6 +62,16 @@ module Api
       end
     end
 
+    def barcode
+      @beer = Beer.find(params[:barcode])
+
+      if @beer.nil?
+        render json: { message: "Cannot find beer" }, status: :not_found
+      else
+        render json: @beer
+      end
+    end
+
     # def create
     #   @beer = Beer.new(beer_params)
 
