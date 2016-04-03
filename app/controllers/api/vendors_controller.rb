@@ -1,5 +1,7 @@
 module Api
   class VendorsController < ApplicationController
+    before_action :authenticate_user!, only: []
+
     def index
       @vendors = Vendor.includes(:vendor_types)
     end
@@ -20,7 +22,7 @@ module Api
       if @bars.nil?
         render json: { message: "Cannot find bars" }, status: :not_found
       else
-
+        render json: @bars
       end
     end
 

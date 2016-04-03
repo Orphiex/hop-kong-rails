@@ -100,130 +100,123 @@ v4 = Vendor.create({
   has_tap: true
 })
 
-v4 = Vendor.create
-({
-name: "Best Bev HK",
-image_url: "http://i.imgur.com/P5vAbd4.png",
-street_address: "1F, 92 Connaught Road West",
-district: "Sheung Wan",
-region: "Hong Kong Island",
-phone_number: "Not provided",
-email: "drink@bestbevhk.com",
-website_url: "http://bestbevhk.com",
-facebook_url: "https://www.facebook.com/BestbevHk/",
-twitter_url: "https://twitter.com/bestbevhk",
-instagram_url: "https://www.instagram.com/bestbevhk/",
-latitude: 0,
-longitude: 0,
-has_tap: false
+v5 = Vendor.create({
+  name: "Best Bev HK",
+  image_url: "http://i.imgur.com/P5vAbd4.png",
+  street_address: "1F, 92 Connaught Road West",
+  district: "Sheung Wan",
+  region: "Hong Kong Island",
+  phone_number: "Not provided",
+  email: "drink@bestbevhk.com",
+  website_url: "http://bestbevhk.com",
+  facebook_url: "https://www.facebook.com/BestbevHk/",
+  twitter_url: "https://twitter.com/bestbevhk",
+  instagram_url: "https://www.instagram.com/bestbevhk/",
+  latitude: 0,
+  longitude: 0,
+  has_tap: false
 })
 
-v5 = Vendor.create
-({
-name: "Black Kite Brewery",
-image_url: "http://i.imgur.com/Q1eljxN.png",
-street_address: "11B Derrick Industrial Building, 49 Wong Chuk Hang Road",
-district: "Wong Chuk Hang",
-region: "Hong Kong Island",
-phone_number: "Not provided",
-email: "beer@blackkite.hk",
-website_url: "http://blackkite.hk",
-facebook_url: "https://www.facebook.com/blackkitebrewery/",
-twitter_url: "https://twitter.com/blackkitehk",
-instagram_url: "https://www.instagram.com/blackkitebrewery/",
-latitude: 0,
-longitude: 0,
-has_tap: true
+v6 = Vendor.create({
+  name: "Black Kite Brewery",
+  image_url: "http://i.imgur.com/Q1eljxN.png",
+  street_address: "11B Derrick Industrial Building, 49 Wong Chuk Hang Road",
+  district: "Wong Chuk Hang",
+  region: "Hong Kong Island",
+  phone_number: "Not provided",
+  email: "beer@blackkite.hk",
+  website_url: "http://blackkite.hk",
+  facebook_url: "https://www.facebook.com/blackkitebrewery/",
+  twitter_url: "https://twitter.com/blackkitehk",
+  instagram_url: "https://www.instagram.com/blackkitebrewery/",
+  latitude: 0,
+  longitude: 0,
+  has_tap: true
 })
 
-v6 = Vendor.create
-({
-name: "COEDO Taproom",
-image_url: "http://i.imgur.com/ziHJc3o.png",
-street_address: "Shop C, G/F, 50-56 Paterson Street",
-district: "Causeway Bay",
-region: "Hong Kong Island",
-phone_number: "2619-9011",
-email: "info@coedobrewery.com",
-website_url: "http://www.coedobrewery.com/en/taproomhk/",
-facebook_url: "https://www.facebook.com/CoedoHongKong",
-twitter_url: "",
-instagram_url: "",
-latitude: 22.2819275,
-longitude: 114.1830133,
-has_tap: true
+v7 = Vendor.create({
+  name: "COEDO Taproom",
+  image_url: "http://i.imgur.com/ziHJc3o.png",
+  street_address: "Shop C, G/F, 50-56 Paterson Street",
+  district: "Causeway Bay",
+  region: "Hong Kong Island",
+  phone_number: "2619-9011",
+  email: "info@coedobrewery.com",
+  website_url: "http://www.coedobrewery.com/en/taproomhk/",
+  facebook_url: "https://www.facebook.com/CoedoHongKong",
+  twitter_url: "",
+  instagram_url: "",
+  latitude: 22.2819275,
+  longitude: 114.1830133,
+  has_tap: true
 })
 
-v7 = Vendor.create
-({
-name: "Craft Beer & Co (Central)",
-image_url: "http://imgur.com/pZpCze6.jpg",
-street_address: "G/F, 17 Old Bailey Street",
-district: "Central",
-region: "Hong Kong Island",
-phone_number: "2885-0821",
-email: "info@craftbrew.com.hk",
-website_url: "http://craftbrew.com.hk",
-facebook_url: "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
-twitter_url: "https://twitter.com/CraftBrewCoHK",
-instagram_url: "",
-latitude: 22.2815561,
-longitude: 114.1512292,
-has_tap: true
+v8 = Vendor.create({
+  name: "Craft Beer & Co (Central)",
+  image_url: "http://imgur.com/pZpCze6.jpg",
+  street_address: "G/F, 17 Old Bailey Street",
+  district: "Central",
+  region: "Hong Kong Island",
+  phone_number: "2885-0821",
+  email: "info@craftbrew.com.hk",
+  website_url: "http://craftbrew.com.hk",
+  facebook_url: "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
+  twitter_url: "https://twitter.com/CraftBrewCoHK",
+  instagram_url: "",
+  latitude: 22.2815561,
+  longitude: 114.1512292,
+  has_tap: true
 })
 
-v8 = Vendor.create
-({
-name: "Craft Beer & Co (KT)",
-image_url: "http://imgur.com/Q8SI6vu.jpg",
-street_address: "G/F, 27-31 Catchick Street",
-district: "Kennedy Town",
-region: "Hong Kong Island",
-phone_number: "2246-8782",
-email: "info@craftbrew.com.hk",
-website_url: "http://craftbrew.com.hk",
-facebook_url: "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
-twitter_url: "https://twitter.com/CraftBrewCoHK",
-instagram_url: "",
-latitude: 22.2835524,
-longitude: 114.1265582,
-has_tap: true
+v9 = Vendor.create({
+  name: "Craft Beer & Co (KT)",
+  image_url: "http://imgur.com/Q8SI6vu.jpg",
+  street_address: "G/F, 27-31 Catchick Street",
+  district: "Kennedy Town",
+  region: "Hong Kong Island",
+  phone_number: "2246-8782",
+  email: "info@craftbrew.com.hk",
+  website_url: "http://craftbrew.com.hk",
+  facebook_url: "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
+  twitter_url: "https://twitter.com/CraftBrewCoHK",
+  instagram_url: "",
+  latitude: 22.2835524,
+  longitude: 114.1265582,
+  has_tap: true
 })
 
-v9 = Vendor.create
-({
-name: "Craft Beer & Co (SYP)",
-image_url: "http://i.imgur.com/8CLyIEG.jpg",
-street_address: "36 High Street",
-district: "Sai Ying Pun",
-region: "Hong Kong Island",
-phone_number: "2559-0498",
-email: "info@craftbrew.com.hk",
-website_url: "http://craftbrew.com.hk",
-facebook_url: "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
-twitter_url: "https://twitter.com/CraftBrewCoHK",
-instagram_url: "",
-latitude: 22.2851735,
-longitude: 114.1400711,
-has_tap: true
+v10 = Vendor.create({
+  name: "Craft Beer & Co (SYP)",
+  image_url: "http://i.imgur.com/8CLyIEG.jpg",
+  street_address: "36 High Street",
+  district: "Sai Ying Pun",
+  region: "Hong Kong Island",
+  phone_number: "2559-0498",
+  email: "info@craftbrew.com.hk",
+  website_url: "http://craftbrew.com.hk",
+  facebook_url: "https://www.facebook.com/CRAFT-BREW-CO-1412720748960283/",
+  twitter_url: "https://twitter.com/CraftBrewCoHK",
+  instagram_url: "",
+  latitude: 22.2851735,
+  longitude: 114.1400711,
+  has_tap: true
 })
 
-v10 = Vendor.create
-({
-name: "Craft Revolution",
-image_url: "http://i.imgur.com/iDVUpzO.jpg?1",
-street_address: "24 Square Street",
-district: "Sheung Wan",
-region: "Hong Kong Island",
-phone_number: "Not provided",
-email: "craftrevolution@hkbeerco.com",
-website_url: "",
-facebook_url: "https://www.facebook.com/craftrevolutionhk/",
-twitter_url: "https://twitter.com/craftrevhk",
-instagram_url: "",
-latitude: 22.2842868,
-longitude: 114.1472444,
-has_tap: true
+v11 = Vendor.create({
+  name: "Craft Revolution",
+  image_url: "http://i.imgur.com/iDVUpzO.jpg?1",
+  street_address: "24 Square Street",
+  district: "Sheung Wan",
+  region: "Hong Kong Island",
+  phone_number: "Not provided",
+  email: "craftrevolution@hkbeerco.com",
+  website_url: "",
+  facebook_url: "https://www.facebook.com/craftrevolutionhk/",
+  twitter_url: "https://twitter.com/craftrevhk",
+  instagram_url: "",
+  latitude: 22.2842868,
+  longitude: 114.1472444,
+  has_tap: true
 })
 
 b1 = Beer.create({
