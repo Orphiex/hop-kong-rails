@@ -15,7 +15,7 @@ module Api
     end
 
     def all_styles
-      @styles = Beer.select(:simpstyle).distinct.pluck(:simpstyle)
+      @styles = Beer.select(:simpstyle).order(:simpstyle).distinct.pluck(:simpstyle)
 
       if @styles.nil?
         render json: { message: "Cannot find styles" }, status: :not_found
@@ -25,7 +25,7 @@ module Api
     end
 
     def all_breweries
-      @breweries = Beer.select(:brewery).distinct.pluck(:brewery)
+      @breweries = Beer.select(:brewery).order(:brewery).distinct.pluck(:brewery)
 
       if @breweries.nil?
         render json: { message: "Cannot find breweries" }, status: :not_found
@@ -35,7 +35,7 @@ module Api
     end
 
     def all_locations
-      @locations = Vendor.select(:district).distinct.pluck(:district)
+      @locations = Vendor.select(:district).order(:district).distinct.pluck(:district)
 
       if @locations.nil?
         render json: { message: "Cannot find locations" }, status: :not_found
@@ -43,6 +43,14 @@ module Api
         render json: @locations
       end
     end
+
+    #def all_countries
+
+    #end
+
+    #def all_vendortypes
+
+    #end
 
     def all_vendortypes
       @vendortypes = VendorType.select(:vendor_type).distinct.pluck(:vendor_type)
@@ -53,7 +61,6 @@ module Api
         render json: @vendortypes
       end
     end
-
 
     # def create
     #   @beer = Beer.new(beer_params)
