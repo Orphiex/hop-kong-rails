@@ -46,6 +46,10 @@ module Api
       end
     end
 
+    # @vendorCountries = Beer.select(:country).distinct.pluck(:country)
+
+    # @vendorBeers =
+
     #def all_countries
 
     #end
