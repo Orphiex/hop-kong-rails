@@ -1,4 +1,5 @@
 module Api
+
   class VendorsController < ApplicationController
     before_action :authenticate_user!, only: []
 
@@ -12,7 +13,7 @@ module Api
       if @vendor.nil?
         render json: { message: "Cannot find vendor" }, status: :not_found
       else
-        render json: @vendor
+        render json: @vendor, include: [:vendor_types]
       end
     end
 
@@ -26,9 +27,15 @@ module Api
       end
     end
 
+    # Need to filter by distance
     def bars_results
-      @vendor = Vendor.all
-      render json: @vendor
+      @bars = VendorType.includes(:vendor).where(vendor_type: 'Bar').map(&:vendor) # returns just bars
+
+      if @bars.nil?
+        render json: { message: "Cannot find bars" }, status: :not_found
+      else
+        render json: @bars
+      end
     end
 
     def beers_results
@@ -37,12 +44,12 @@ module Api
     end
 
     def vendor_details
-      @vendor = Vendor.find_by_id(params[:id])
-       if @vendor.nil?
-        render json: { message: "Cannot find vendor" }, status: :not_found
-      else
-        render json: @vendor
-      end
+      @vendor = Vendor.find_by_id(params[:id]).includes(:vendor_types)
+      # if @vendor.nil?
+      #   render json: { message: "Cannot find vendor" }, status: :not_found
+      # else
+      #   render json: @vendor
+      # end
     end
 
 

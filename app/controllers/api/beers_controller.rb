@@ -3,7 +3,7 @@ module Api
     before_action :authenticate_user!, only: []
 
     def index
-      @beers = Beer.all
+      @beers = Beer.all.order(:name)
     end
 
     def show
@@ -16,6 +16,7 @@ module Api
       end
     end
 
+    # obtains unique beer styles (eg lager, ipa) and sorts alphabetically
     def all_styles
       @styles = Beer.select(:simpstyle).order(:simpstyle).distinct.pluck(:simpstyle)
 
@@ -26,6 +27,7 @@ module Api
       end
     end
 
+    # obtains unique breweries and sorts alphabetically
     def all_breweries
       @breweries = Beer.select(:brewery).order(:brewery).distinct.pluck(:brewery)
 
@@ -36,6 +38,7 @@ module Api
       end
     end
 
+    # obtains unique locations (eg Sheung Wan , Wan Chai) and sorts alphabetically
     def all_locations
       @locations = Vendor.select(:district).order(:district).distinct.pluck(:district)
 
@@ -46,20 +49,19 @@ module Api
       end
     end
 
-    # @vendorCountries = Beer.select(:country).distinct.pluck(:country)
+    # obtains unique countries (eg Hong Kong, USA)
+    def all_countries
+     @countries = Beer.select(:country).order(:country).distinct.pluck(:country)
 
-    # @vendorBeers =
-
-    #def all_countries
-
-    #end
-
-    #def all_vendortypes
-
-    #end
+     if @countries.nil?
+        render json: { message: "Cannot find countries" }, status: :not_found
+      else
+        render json: @countries
+      end
+    end
 
     def all_vendortypes
-      @vendortypes = VendorType.select(:vendor_type).distinct.pluck(:vendor_type)
+      @vendortypes = VendorType.select(:vendor_type).order(:vendor_type).distinct.pluck(:vendor_type)
 
       if @vendortypes.nil?
         render json: { message: "Cannot find vendor types" }, status: :not_found
