@@ -15,6 +15,13 @@ module Api
     end
 
     def show
+      @bookmark = BeerBookmark.find_by_id(params[:id])
+
+      if @bookmark.nil?
+        render json: { message: "Cannot find bookmark" }, status: :not_found
+      else
+        render json: @bookmark
+      end
     end
 
     def create
