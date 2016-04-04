@@ -1,9 +1,9 @@
 module Api
-  class BeerBookmarksController < ApplicationController
+  class VendorBookmarksController < ApplicationController
     # before_action :authenticate_user!
 
     def index
-      @bookmarks = BeerBookmark.find(params[:user_id])
+      @bookmarks = VendorBookmark.find(params[:user_id])
 
       render json: @bookmarks
 
@@ -15,7 +15,7 @@ module Api
     end
 
     def show
-      @bookmark = BeerBookmark.find_by_id(params[:id])
+      @bookmark = VendorBookmark.find_by_id(params[:id])
 
       if @bookmark.nil?
         render json: { message: "Cannot find bookmark" }, status: :not_found
@@ -25,13 +25,13 @@ module Api
     end
 
     def create
-      bookmark = BeerBookmark.new(bookmark_params)
+      bookmark = VendorBookmark.new(bookmark_params)
 
       render json: bookmark
     end
 
     def destroy
-      @bookmark = BeerBookmark.find_by_id(params[:id])
+      @bookmark = VendorBookmark.find_by_id(params[:id])
 
       if @bookmark.nil?
         render json: { message: "Cannot find bookmark" }, status: :not_found
@@ -47,7 +47,7 @@ module Api
     private
 
     def bookmark_params
-      params.permit(:beer_id, :user_id)
+      params.permit(:vendor_id, :user_id)
     end
   end
 end
