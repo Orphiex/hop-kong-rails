@@ -80,6 +80,12 @@ module Api
       end
     end
 
+    def quicksearch
+      @beers = Beer.where("name like ?", "%#{params}%")
+
+      render json: @beers
+    end
+
     # def create
     #   @beer = Beer.new(beer_params)
 
