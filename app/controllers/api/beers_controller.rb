@@ -1,5 +1,7 @@
 module Api
   class BeersController < ApplicationController
+    before_action :authenticate_user!, only: []
+
     def index
       @beers = Beer.all.order(:name)
     end
