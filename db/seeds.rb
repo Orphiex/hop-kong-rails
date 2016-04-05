@@ -2573,4 +2573,3 @@ brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png",
 simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
 })
-
