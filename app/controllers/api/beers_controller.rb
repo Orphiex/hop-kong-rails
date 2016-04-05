@@ -87,6 +87,11 @@ module Api
       render json: @beers
     end
 
+    def beers_list
+      @beers = Vendor.includes(:beers).find_by(id: params[:vendor_id]).beers
+      render json: @beers
+    end
+
     # def create
     #   @beer = Beer.new(beer_params)
 
