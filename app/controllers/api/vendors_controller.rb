@@ -27,7 +27,9 @@ module Api
       end
     end
 
-    # Need to filter by distance
+    # Returns all vendor types that are bars
+    # NEED TO FILTER BY DISTANCE
+
     def bars_results
       @bars = VendorType.includes(:vendor).where(vendor_type: 'Bar').map(&:vendor) # returns just bars
 
@@ -39,8 +41,8 @@ module Api
     end
 
     def beers_results
-      @vendor = Vendor.all
-      render json: @vendor
+      @beer = Beer.all
+      render json: @beer
     end
 
     def vendor_details

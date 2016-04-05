@@ -60,6 +60,7 @@ module Api
       end
     end
 
+    # obtains unique vendor types
     def all_vendortypes
       @vendortypes = VendorType.select(:vendor_type).order(:vendor_type).distinct.pluck(:vendor_type)
 

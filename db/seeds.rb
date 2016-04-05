@@ -78,7 +78,7 @@ v3 = Vendor.create({
   street_address: "88 Somewhere Street",
   district: "Central",
   region: "Hong Kong Island",
-  phone_number: "No phone number provided",
+  phone_number: "Not provided",
   email: "sales@beers-r-us.com",
   website_url: "http://www.beersrus.hk",
   facebook_url: "https://www.facebook_url.com/Beers-R-Us-358651907577798/",
@@ -304,7 +304,7 @@ street_address: "21 Elgin Street",
 district: "Central",
 region: "Hong Kong Island",
 phone_number: "2869-8388",
-email: "",
+email: "Not provided",
 website_url: "http://www.belgie-group.com/",
 facebook_url: "https://www.facebook.com/deBelgiehk",
 twitter_url: "https://twitter.com/de_Belgie",
@@ -323,7 +323,7 @@ street_address: "64 High Street",
 district: "Sai Ying Pun",
 region: "Hong Kong Island",
 phone_number: "2323-2237",
-email: "",
+email: "Not provided",
 website_url: "",
 facebook_url: "https://www.facebook.com/Granville.Island.HK/",
 twitter_url: "",
@@ -473,7 +473,7 @@ facebook_url: "",
 twitter_url: "",
 instagram_url: "https://www.instagram.com/explore/locations/1020515030/?hl=te",
 latitude: 22.2975665,
-longitude: 114.1530684,
+longitude: 114.1683892,
 has_tap: true
 })
 v22vt1 = VendorType.create(vendor_type: "Bar")
@@ -651,7 +651,7 @@ v30.vendor_types << v30vt2
 v31 = Vendor.create({
 name: "The Beer Bay",
 image_url: "http://i.imgur.com/m1s9ncx.png",
-street_address: "Pier 3 & Pier 4, Central Ferry Pier",
+street_address: "Pier 3 & 4, Central Ferry Pier",
 district: "Central",
 region: "Hong Kong Island",
 phone_number: "3481-7290",
@@ -660,8 +660,8 @@ website_url: "http://www.thebeerbay.com.hk",
 facebook_url: "https://www.facebook.com/bbpier3and4/",
 twitter_url: "",
 instagram_url: "https://www.instagram.com/explore/locations/222098241/",
-latitude: 22.2876762,
-longitude: 114.1553315,
+latitude: 22.2853676,
+longitude: 114.1540134,
 has_tap: true
 })
 v31vt1 = VendorType.create(vendor_type: "Bar")
@@ -848,7 +848,7 @@ image_url: "http://i.imgur.com/uIYlC97.jpg",
 street_address: "Unit 407 4F, Oceanic Industrial Centric, 2 Lee Lok Street",
 district: "Ap Lei Chau",
 region: "Hong Kong Island",
-phone_number: "No phone number provided",
+phone_number: "Not provided",
 email: "info@youngmasterales.com",
 website_url: "http://www.youngmasterales.com",
 facebook_url: "https://www.facebook.com/YoungMasterAles/",
@@ -860,6 +860,220 @@ has_tap: true
 })
 v40vt1 = VendorType.create(vendor_type: "Brewery")
 v40.vendor_types << v40vt1
+
+
+v41 = Vendor.create({
+name: "Lily & Bloom",
+image_url: "http://i.imgur.com/XSKbcJl.jpg",
+street_address: "5F+6F, LKF Tower, 33 Wyndham Street",
+district: "Central",
+region: "Hong Kong Island",
+phone_number: "2816-6166",
+email: "info@lily-bloom.com",
+website_url: "http://buzzconcepts.com/#lily_bloom_level",
+facebook_url: "https://www.facebook.com/LilyandBloom/info",
+twitter_url: "https://twitter.com/lily_bloomhk",
+instagram_url: "",
+latitude: 22.2804241,
+longitude: 114.1528555,
+has_tap: false
+})
+v41vt1 = VendorType.create(vendor_type: "Bar")
+v41vt2 = VendorType.create(vendor_type: "Restaurant")
+v41.vendor_types << v41vt1
+v41.vendor_types << v41vt2
+
+
+v42 = Vendor.create({
+name: "Hooked",
+image_url: "http://i.imgur.com/BALEAQM.png",
+street_address: "80-88 Caine Road",
+district: "Central",
+region: "HK Island",
+phone_number: "2915-1118",
+email: "info@hooked.hk",
+website_url: "https://www.hooked.hk",
+facebook_url: "https://www.facebook.com/hookedHK",
+twitter_url: "https://twitter.com/hookedhk",
+instagram_url: "",
+latitude: 22.2816043,
+longitude: 114.1491628,
+has_tap: false
+})
+v42vt1 = VendorType.create(vendor_type: "Restaurant")
+v42.vendor_types << v42vt1
+
+
+v43 = Vendor.create({
+name: "Beer & Fish (Central)",
+image_url: "http://i.imgur.com/SHRYWzs.jpg",
+street_address: "68 Staunton Street",
+district: "Central",
+region: "Hong Kong Island",
+phone_number: "2540-0888",
+email: "Not provided",
+website_url: "",
+facebook_url: "https://www.facebook.com/Beer-Fish-1049329001778879/",
+twitter_url: "",
+instagram_url: "",
+latitude: 22.2816061,
+longitude: 114.15096,
+has_tap: true
+})
+v43vt1 = VendorType.create(vendor_type: "Bar")
+v43vt2 = VendorType.create(vendor_type: "Restaurant")
+v43.vendor_types << v43vt1
+v43.vendor_types << v43vt2
+
+
+v44 = Vendor.create({
+name: "White Beard (Pier 7)",
+image_url: "http://i.imgur.com/Lf4jgi4.jpg",
+street_address: "Pier 7, Central Pier",
+district: "Central",
+region: "Hong Kong Island",
+phone_number: "2386-0022",
+email: "Not provided",
+website_url: "",
+facebook_url: "https://www.facebook.com/Whitebeardfishandchips/",
+twitter_url: "",
+instagram_url: "",
+latitude: 22.2873017,
+longitude: 114.1591388,
+has_tap: false
+})
+v44vt1 = VendorType.create(vendor_type: "Restaurant")
+v44.vendor_types << v44vt1
+
+
+v45 = Vendor.create({
+name: "White Beard (SoHo)",
+image_url: "http://i.imgur.com/5KoMOIl.jpg",
+street_address: "55 Peel Street",
+district: "Central",
+region: "Hong Kong Island",
+phone_number: "2803-0082",
+email: "Not provided",
+website_url: "",
+facebook_url: "https://www.facebook.com/Whitebeardfishandchips/",
+twitter_url: "",
+instagram_url: "",
+latitude: 22.2825964,
+longitude: 114.1502481,
+has_tap: false
+})
+v45vt1 = VendorType.create(vendor_type: "Restaurant")
+v45.vendor_types << v45vt1
+
+
+v46 = Vendor.create({
+name: "65 Peel",
+image_url: "http://i.imgur.com/l7UiTBt.jpg",
+street_address: "65 Peel Street",
+district: "Central",
+region: "Hong Kong Island",
+phone_number: "",
+email: "Not provided",
+website_url: "",
+facebook_url: "https://www.facebook.com/pages/65-Peel-Street/237103466629461",
+twitter_url: "",
+instagram_url: "",
+latitude: 22.282209,
+longitude: 114.1501158,
+has_tap: false
+})
+v46vt1 = VendorType.create(vendor_type: "Bar")
+v46vt2 = VendorType.create(vendor_type: "Restaurant")
+v46.vendor_types << v46vt1
+v46.vendor_types << v46vt2
+
+
+v47 = Vendor.create({
+name: "Mavericks",
+image_url: "http://i.imgur.com/smCBQZf.jpg",
+street_address: "Pui O Beach",
+district: "Lantau Island",
+region: "New Territories",
+phone_number: "5662-8552",
+email: "info@mavericks.hk",
+website_url: "http://www.mavericks.hk",
+facebook_url: "https://www.facebook.com/maverickshk/",
+twitter_url: "",
+instagram_url: "https://www.instagram.com/maverickshk/",
+latitude: 22.2399035,
+longitude: 113.9744103,
+has_tap: false
+})
+v47vt1 = VendorType.create(vendor_type: "Bar")
+v47vt2 = VendorType.create(vendor_type: "Restaurant")
+v47.vendor_types << v47vt1
+v47.vendor_types << v47vt2
+
+
+v48 = Vendor.create({
+name: "The Beach House",
+image_url: "http://i.imgur.com/XbRDKjs.jpg",
+street_address: "32 Lower Cheung Sha Village South",
+district: "Lantau Island",
+region: "New Territories",
+phone_number: "2504-4788",
+email: "reservations@thebeachhousehk.com",
+website_url: "http://www.thebeachhousehk.com",
+facebook_url: "https://www.facebook.com/The-Beach-House-Hong-Kong-301418183401666",
+twitter_url: "https://twitter.com/TheBeachHouseHK",
+instagram_url: "https://www.instagram.com/TheBeachHouseHK/",
+latitude: 22.2341672,
+longitude: 113.9536812,
+has_tap: true
+})
+v48vt1 = VendorType.create(vendor_type: "Bar")
+v48vt2 = VendorType.create(vendor_type: "Restaurant")
+v48.vendor_types << v48vt1
+v48.vendor_types << v48vt2
+
+
+v49 = Vendor.create({
+name: "Stone Nullah Tavern",
+image_url: "http://i.imgur.com/pKSdKbZ.jpg",
+street_address: "69 Stone Nullah Lane",
+district: "Wan Chai",
+region: "Hong Kong Island",
+phone_number: "3182-0128",
+email: "info@stonenullahtavern.com",
+website_url: "http://www.stonenullahtavern.com/en/hongkong/contact/",
+facebook_url: "https://www.facebook.com/StoneNullahTavern",
+twitter_url: "",
+instagram_url: "",
+latitude: 22.2741722,
+longitude: 114.1717996,
+has_tap: true
+})
+v49vt1 = VendorType.create(vendor_type: "Bar")
+v49vt2 = VendorType.create(vendor_type: "Restaurant")
+v49.vendor_types << v49vt1
+v49.vendor_types << v49vt2
+
+
+v50 = Vendor.create({
+name: "Brewdog",
+image_url: "http://i.imgur.com/uQDjkKQ.png",
+street_address: "19 Hollywood Road",
+district: "Central",
+region: "Hong Kong Island",
+phone_number: "2219-9905",
+email: "feedback.worldbar@brewdog.com",
+website_url: "https://www.brewdog.com/bars/worldwide/hong-kong",
+facebook_url: "https://www.facebook.com/BrewDogHK/",
+twitter_url: "https://twitter.com/BrewDogHongKong",
+instagram_url: "https://www.instagram.com/brewdoghongkong/",
+latitude: 22.2820673,
+longitude: 114.1519529,
+has_tap: true
+})
+v50vt1 = VendorType.create(vendor_type: "Bar")
+v50vt2 = VendorType.create(vendor_type: "Restaurant")
+v50.vendor_types << v50vt1
+v50.vendor_types << v50vt2
 
 
 
@@ -959,12 +1173,12 @@ brewery: "Worthy Brewing",
 importer: "Beers R Us",
 country: "USA",
 style: "Stout",
-simpstyle: "Porter Stout",
+simpstyle: "Porter / Stout",
 abv: 7.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/30Uyz6e.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # porter stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
 })
 
 
@@ -1079,12 +1293,12 @@ brewery: "Founders Brewing Company",
 importer: "AmeriCraft Imports",
 country: "USA",
 style: "Stout",
-simpstyle: "Porter Stout",
+simpstyle: "Porter / Stout",
 abv: 8.3,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # porter stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
 })
 
 
@@ -1109,12 +1323,12 @@ brewery: "Founders Brewing Company",
 importer: "AmeriCraft Imports",
 country: "USA",
 style: "Porter",
-simpstyle: "Porter Stout",
+simpstyle: "Porter / Stout",
 abv: 6.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # porter stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
 })
 
 
@@ -1407,12 +1621,12 @@ brewery: "Anchor Brewing",
 importer: "AmeriCraft Imports",
 country: "USA",
 style: "Porter",
-simpstyle: "Porter Stout",
+simpstyle: "Porter / Stout",
 abv: 5.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # porter stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
 })
 
 
@@ -1447,7 +1661,7 @@ simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
 
 
 b40 = Beer.create({
-name: "Luxardo Cherry Ale",
+name: "Anchor Luxardo Cherry Ale",
 brewery: "Anchor Brewing",
 importer: "AmeriCraft Imports",
 country: "USA",
@@ -1459,3 +1673,904 @@ brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
 simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
 })
+
+
+b41 = Beer.create({
+name: "Anderson Valley Blood Orange Gos",
+brewery: "Anderson Valley Brewing Company",
+importer: "Hop Leaf",
+country: "USA",
+style: "Wheat",
+simpstyle: "Wheat",
+abv: 4.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+})
+
+
+b42 = Beer.create({
+name: "Anderson Valley Fall Hornin' Pumpkin Ale",
+brewery: "Anderson Valley Brewing Company",
+importer: "Hop Leaf",
+country: "USA",
+style: "Pumpkin Ale",
+simpstyle: "Other",
+abv: 6.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+})
+
+
+b43 = Beer.create({
+name: "Anderson Valley Barney Flats Oatmeal Stout",
+brewery: "Anderson Valley Brewing Company",
+importer: "Hop Leaf",
+country: "USA",
+style: "Stout",
+simpstyle: "Porter / Stout",
+abv: 5.8,
+name_image: "",
+brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b44 = Beer.create({
+name: "Anderson Valley Hop Ottin' IPA",
+brewery: "Anderson Valley Brewing Company",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 7.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b45 = Beer.create({
+name: "Anderson Valley Poleeko Pale Ale",
+brewery: "Anderson Valley Brewing Company",
+importer: "Hop Leaf",
+country: "USA",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b46 = Beer.create({
+name: "Anderson Valley Heelch O' Hops Double IPA",
+brewery: "Anderson Valley Brewing Company",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 8.6,
+name_image: "",
+brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b47 = Beer.create({
+name: "Deschutes Black Butte Porter",
+brewery: "Deschutes Brewery",
+importer: "Hop Leaf",
+country: "USA",
+style: "Porter",
+simpstyle: "Porter / Stout",
+abv: 5.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b48 = Beer.create({
+name: "Deschutes Chainbreaker White IPA",
+brewery: "Deschutes Brewery",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 5.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b49 = Beer.create({
+name: "Deschutes Fresh Squeezed",
+brewery: "Deschutes Brewery",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 6.4,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b50 = Beer.create({
+name: "Deschutes Mirror Pond Pale Ale",
+brewery: "Deschutes Brewery",
+importer: "Hop Leaf",
+country: "USA",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b51 = Beer.create({
+name: "Deschutes Redchair Northwest Pale Ale",
+brewery: "Deschutes Brewery",
+importer: "Hop Leaf",
+country: "USA",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 6.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b52 = Beer.create({
+name: "Deschutes River Ale",
+brewery: "Deschutes Brewery",
+importer: "Hop Leaf",
+country: "USA",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 3.9,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b53 = Beer.create({
+name: "Epic Brainless Belgian-Style Golden Ale",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Golden Ale",
+simpstyle: "Blonde Golden",
+abv: 8.7,
+name_image: "",
+brewery_image: "http://i.imgur.com/AFpEWCI.png",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+})
+
+
+b54 = Beer.create({
+name: "Epic Brainless on Cherries",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Fruit",
+simpstyle: "Fruit",
+abv: 10.1,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+})
+
+
+b55 = Beer.create({
+name: "Epic Brainless on Peaches",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Fruit",
+simpstyle: "Fruit",
+abv: 11.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+})
+
+
+b56 = Beer.create({
+name: "Epic Brainless on Raspberries",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Fruit",
+simpstyle: "Fruit",
+abv: 9.7,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+})
+
+
+b57 = Beer.create({
+name: "Epic Double Skull Doppel Bock Lager",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Lager",
+simpstyle: "Lager",
+abv: 8.4,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+})
+
+
+b58 = Beer.create({
+name: "Epic Escape to Colorado IPA",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 6.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b59 = Beer.create({
+name: "Epic Fermentation Without Representation Imperial Pumpkin Porter",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Porter",
+simpstyle: "Porter / Stout",
+abv: 8.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b60 = Beer.create({
+name: "Epic Fest Devious Marzen Ale",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Marzen",
+simpstyle: "Lager",
+abv: 6.6,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+})
+
+
+b61 = Beer.create({
+name: "Epic Hop Syndrome Lager",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Lager",
+simpstyle: "Lager",
+abv: 5.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+})
+
+
+b62 = Beer.create({
+name: "Epic Smoked Belgian Strong Ale",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Smoked Belgian",
+simpstyle: "Other",
+abv: 10.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+})
+
+
+b63 = Beer.create({
+name: "Epic Sour Apple Saison",
+brewery: "Epic Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Sour Saison",
+simpstyle: "Saison",
+abv: 8.1,
+name_image: "",
+brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+})
+
+
+b64 = Beer.create({
+name: "North Coast Acme IPA",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 6.9,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b65 = Beer.create({
+name: "North Coast Puck Pettite Saison",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "Belgian Saison",
+simpstyle: "Saison",
+abv: 4.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+})
+
+
+b66 = Beer.create({
+name: "North Coast Red Seal Amber Ale",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "Amber",
+simpstyle: "Amber",
+abv: 5.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+})
+
+
+b67 = Beer.create({
+name: "North Coast Scrimshaw Pilsner",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "Pilsner",
+simpstyle: "Lager",
+abv: 4.4,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+})
+
+
+b68 = Beer.create({
+name: "North Coast Blue Star Wheat",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "Wheat",
+simpstyle: "Wheat",
+abv: 4.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+})
+
+
+b69 = Beer.create({
+name: "North Coast Old Rasputin Imperial Stout",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "Imperial Stout",
+simpstyle: "Porter / Stout",
+abv: 9.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b70 = Beer.create({
+name: "North Coast Pranqster Belgian Style Golden Ale",
+brewery: "North Coast",
+importer: "Hop Leaf",
+country: "USA",
+style: "Golden Ale",
+simpstyle: "Blonde Golden",
+abv: 7.6,
+name_image: "",
+brewery_image: "http://i.imgur.com/aM8yRqs.",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+})
+
+
+b71 = Beer.create({
+name: "Rogue Yellow Snow IPA",
+brewery: "Rogue",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 6.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b72 = Beer.create({
+name: "Rogue Brutal IPA",
+brewery: "Rogue",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 5.8,
+name_image: "",
+brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b73 = Beer.create({
+name: "Rogue Dead Guy",
+brewery: "Rogue",
+importer: "Hop Leaf",
+country: "USA",
+style: "German Maibock",
+simpstyle: "Lager",
+abv: 6.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+})
+
+
+b74 = Beer.create({
+name: "Rogue Buckwheat Ale",
+brewery: "Rogue",
+importer: "Hop Leaf",
+country: "USA",
+style: "TBC",
+simpstyle: "Wheat",
+abv: 4.8,
+name_image: "",
+brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+})
+
+
+b75 = Beer.create({
+name: "Stone Americano Stout",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Stout",
+simpstyle: "Porter / Stout",
+abv: 8.7,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b76 = Beer.create({
+name: "Stone Arrogant Bastard Bourbon-Barrel Aged Ale",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "American Strong Ale",
+simpstyle: "Other",
+abv: 7.8,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+})
+
+
+b77 = Beer.create({
+name: "Stone Coffee Milk Stout",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Stout",
+simpstyle: "Porter / Stout",
+abv: 5.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b78 = Beer.create({
+name: "Stone Delicious IPA",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 7.7,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b79 = Beer.create({
+name: "Stone Go To IPA",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 4.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b80 = Beer.create({
+name: "Stone IPA",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "IPA",
+simpstyle: "IPA",
+abv: 6.9,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b81 = Beer.create({
+name: "Stone Pataskala Red X IPA",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "American Amber / Red Ale",
+simpstyle: "Amber",
+abv: 7.3,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+})
+
+
+b82 = Beer.create({
+name: "Stone Ruination Double IPA 2.0",
+brewery: "Stone Brewing",
+importer: "Hop Leaf",
+country: "USA",
+style: "Double IPA",
+simpstyle: "IPA",
+abv: 8.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b83 = Beer.create({
+name: "Gweilo Pale Ale",
+brewery: "Gweilo Beer",
+importer: "Gweilo Beer",
+country: "Hong Kong",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 4.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/geLBSVP.jpg",
+country_image: "http://i.imgur.com/yqJa3qh.png", # USA
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b84 = Beer.create({
+name: "Gweilo IPA",
+brewery: "Gweilo Beer",
+importer: "Gweilo Beer",
+country: "Hong Kong",
+style: "IPA",
+simpstyle: "IPA",
+abv: 4.8,
+name_image: "",
+brewery_image: "http://i.imgur.com/geLBSVP.jpg",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b85 = Beer.create({
+name: "Black Kite Golden Ale",
+brewery: "Black Kite Brewery",
+importer: "Black Kite Brewery",
+country: "Hong Kong",
+style: "Golden Ale",
+simpstyle: "Blonde Golden",
+abv: 4.6,
+name_image: "",
+brewery_image: "http://i.imgur.com/Q1eljxN.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+})
+
+
+b86 = Beer.create({
+name: "Black Kite Pale Ale",
+brewery: "Black Kite Brewery",
+importer: "Black Kite Brewery",
+country: "Hong Kong",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.2,
+name_image: "",
+brewery_image: "http://i.imgur.com/Q1eljxN.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b87 = Beer.create({
+name: "Black Kite Wheat",
+brewery: "Black Kite Brewery",
+importer: "Black Kite Brewery",
+country: "Hong Kong",
+style: "Wheat",
+simpstyle: "Wheat",
+abv: 5.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/Q1eljxN.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+})
+
+
+b88 = Beer.create({
+name: "Black Kite IPA",
+brewery: "Black Kite Brewery",
+importer: "Black Kite Brewery",
+country: "Hong Kong",
+style: "IPA",
+simpstyle: "IPA",
+abv: 5.7,
+name_image: "",
+brewery_image: "http://i.imgur.com/Q1eljxN.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b89 = Beer.create({
+name: "Black Kite Amber Ale",
+brewery: "Black Kite Brewery",
+importer: "Black Kite Brewery",
+country: "Hong Kong",
+style: "Amber",
+simpstyle: "Amber",
+abv: 5.4,
+name_image: "",
+brewery_image: "http://i.imgur.com/Q1eljxN.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+})
+
+
+b90 = Beer.create({
+name: "Black Kite Porter",
+brewery: "Black Kite Brewery",
+importer: "Black Kite Brewery",
+country: "Hong Kong",
+style: "Porter",
+simpstyle: "Porter / Stout",
+abv: 5.4,
+name_image: "",
+brewery_image: "http://i.imgur.com/Q1eljxN.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b91 = Beer.create({
+name: "Hong Kong Gambler's Gold",
+brewery: "Hong Kong Beer Company",
+importer: "Hong Kong Beer Company",
+country: "Hong Kong",
+style: "Golden Ale",
+simpstyle: "Blonde Golden",
+abv: 4.6,
+name_image: "",
+brewery_image: "http://i.imgur.com/5rR9Zgn.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+})
+
+
+b92 = Beer.create({
+name: "Hong Kong White Pearl",
+brewery: "Hong Kong Beer Company",
+importer: "Hong Kong Beer Company",
+country: "Hong Kong",
+style: "Witbier",
+simpstyle: "Wheat",
+abv: 5.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/5rR9Zgn.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+})
+
+
+b93 = Beer.create({
+name: "Hong Kong Hong Kong Beer",
+brewery: "Hong Kong Beer Company",
+importer: "Hong Kong Beer Company",
+country: "Hong Kong",
+style: "Amber",
+simpstyle: "Amber",
+abv: 5.1,
+name_image: "",
+brewery_image: "http://i.imgur.com/5rR9Zgn.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+})
+
+
+b94 = Beer.create({
+name: "Hong Kong Dragon's Back",
+brewery: "Hong Kong Beer Company",
+importer: "Hong Kong Beer Company",
+country: "Hong Kong",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.3,
+name_image: "",
+brewery_image: "http://i.imgur.com/5rR9Zgn.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b95 = Beer.create({
+name: "Hong Kong Big Wave Bay",
+brewery: "Hong Kong Beer Company",
+importer: "Hong Kong Beer Company",
+country: "Hong Kong",
+style: "IPA",
+simpstyle: "IPA",
+abv: 7.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/5rR9Zgn.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
+
+b96 = Beer.create({
+name: "Hong Kong Hong Kong Sevens",
+brewery: "Hong Kong Beer Company",
+importer: "Hong Kong Beer Company",
+country: "Hong Kong",
+style: "Stout",
+simpstyle: "Porter / Stout",
+abv: 6.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/5rR9Zgn.png",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+})
+
+
+b97 = Beer.create({
+name: "Kowloon Bay Pale Ale",
+brewery: "Kowloon Bay Brewery",
+importer: "Kowloon Bay Brewery",
+country: "Hong Kong",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.0,
+name_image: "",
+brewery_image: "http://i.imgur.com/S55RyqI.jpg",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+})
+
+
+b98 = Beer.create({
+name: "Kowloon Bay Weizen",
+brewery: "Kowloon Bay Brewery",
+importer: "Kowloon Bay Brewery",
+country: "Hong Kong",
+style: "Wheat",
+simpstyle: "Wheat",
+abv: 4.8,
+name_image: "",
+brewery_image: "http://i.imgur.com/S55RyqI.jpg",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+})
+
+
+b99 = Beer.create({
+name: "Kowloon Bay American Amber Ale",
+brewery: "Kowloon Bay Brewery",
+importer: "Kowloon Bay Brewery",
+country: "Hong Kong",
+style: "Amber",
+simpstyle: "Amber",
+abv: 5.5,
+name_image: "",
+brewery_image: "http://i.imgur.com/S55RyqI.jpg",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+})
+
+
+b100 = Beer.create({
+name: "Kowloon Bay American IPA",
+brewery: "Kowloon Bay Brewery",
+importer: "Kowloon Bay Brewery",
+country: "Hong Kong",
+style: "IPA",
+simpstyle: "IPA",
+abv: 7.4,
+name_image: "",
+brewery_image: "http://i.imgur.com/S55RyqI.jpg",
+country_image: "http://i.imgur.com/PflNAJq.png",
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+})
+
