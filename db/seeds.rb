@@ -1,8 +1,9 @@
 Vendor.destroy_all
 Beer.destroy_all
-#Country.destroy_all
+Menu.destroy_all
 VendorType.destroy_all
 #User.destroy_all
+#Country.destroy_all
 
 #Menu.destroy_all # the beers belonging to a vendor
 
@@ -2573,3 +2574,14 @@ brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png",
 simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
 })
+
+menus = {
+  v1 => [b1, b2, b3],
+  v2 => [b10, b11, b12]
+}
+
+menus.each do |vendor, beers|
+  beers.each do |beer|
+    Menu.create(vendor: vendor, beer: beer)
+  end
+end
