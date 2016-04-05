@@ -2,6 +2,8 @@ Vendor.destroy_all
 Beer.destroy_all
 Menu.destroy_all
 VendorType.destroy_all
+BeerBookmark.destroy_all
+VendorBookmark.destroy_all
 #User.destroy_all
 #Country.destroy_all
 
@@ -43,9 +45,9 @@ v1 = Vendor.create({
   phone_number: "9314-3330",
   email: "info@americraftimports.com",
   website_url: "http://americraftimports.com",
-  facebook_url: "https://www.facebook_url.com/americraftimports/",
-  twitter_url: "https://twitter_url.com/americrafthk",
-  instagram_url: "https://www.instagram_url.com/americraftimports/?hl=en",
+  facebook_url: "https://www.facebook.com/americraftimports/",
+  twitter_url: "https://twitter.com/americrafthk",
+  instagram_url: "https://www.instagram.com/americraftimports/?hl=en",
   latitude: 22.2876789,
   longitude: 114.1461143,
   has_tap: false
@@ -82,9 +84,9 @@ v3 = Vendor.create({
   phone_number: "Not provided",
   email: "sales@beers-r-us.com",
   website_url: "http://www.beersrus.hk",
-  facebook_url: "https://www.facebook_url.com/Beers-R-Us-358651907577798/",
-  twitter_url: "https://twitter_url.com/beersrushk",
-  instagram_url: "https://www.instagram_url.com/beersrushkg/",
+  facebook_url: "https://www.facebook.com/Beers-R-Us-358651907577798/",
+  twitter_url: "https://twitter.com/beersrushk",
+  instagram_url: "https://www.instagram.com/beersrushkg/",
   latitude: 22.1876789,
   longitude: 114.0461143,
   has_tap: false
@@ -245,7 +247,7 @@ email: "info@craftissimo.hk",
 website_url: "http://www.craftissimo.hk",
 facebook_url: "https://www.facebook.com/Craftissimo/",
 twitter_url: "https://twitter.com/craftissimohk",
-instagram_url: "http://www.online-instagram_url.com/user/craftissimohk/466553978",
+instagram_url: "http://www.online-instagram.com/user/craftissimohk/466553978",
 latitude: 22.2846289,
 longitude: 114.1461077,
 has_tap: false
@@ -265,7 +267,7 @@ phone_number: "6274-3130",
 email: "info@craftissimo.hk",
 website_url: "http://www.craftissimo.hk",
 facebook_url: "https://www.facebook.com/Craftissimo/",
-twitter_url: "https://twitter_url.com/craftissimohk",
+twitter_url: "https://twitter.com/craftissimohk",
 instagram_url: "http://www.online-instagram.com/user/craftissimohk/466553978",
 latitude: 22.2989729,
 longitude: 114.1747883,

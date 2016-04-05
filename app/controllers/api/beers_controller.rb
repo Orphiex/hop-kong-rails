@@ -88,8 +88,7 @@ module Api
     end
 
     def beers_list
-      @beers = Beer.joins(:vendors).where(params[:beer_id])
-
+      @beers = Vendor.includes(:beers).find_by(id: params[:vendor_id]).beers
       render json: @beers
     end
 
