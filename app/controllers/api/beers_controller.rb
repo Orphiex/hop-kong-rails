@@ -87,6 +87,12 @@ module Api
       render json: @beers
     end
 
+    def beers_list
+      @beers = Beer.joins(:vendors).where(params[:beer_id])
+
+      render json: @beers
+    end
+
     # def create
     #   @beer = Beer.new(beer_params)
 
