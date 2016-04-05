@@ -31,7 +31,41 @@ module Api
     # NEED TO FILTER BY DISTANCE
 
     def bars_results
-      @bars = VendorType.includes(:vendor).where(vendor_type: 'Bar').map(&:vendor) # returns just bars
+      # params = {
+      #   "Beer Country"=>["Hong Kong"],
+      #   "controller"=>"api/vendors",
+      #   "action"=>"bars_results",
+      #   "format"=>"json"
+      # }
+      puts ">>>>>>>"
+      puts "[#{params["Beer Country"]}]"
+      puts "[#{params["HK Location"]}]"
+      puts "[#{params["Beer Style"]}]"
+      puts "[#{params["Brewery Name"]}]"
+      puts "[#{params["Beer Name"]}]"
+      puts "<<<<<<<"
+
+      #@bars = Vendor.joins(:beers).where("beers.country = ? AND vendors.district = ? AND beers.simpstyle = ? AND beers.brewery = ? AND beers.name = ?", params["Beer Country"], params["HK Location"], params["Beer Style"], params["Brewery Name"], params["Beer Name"]).uniq
+
+      search_terms = {}
+      search_terms['beers.country'] = params["Beer Country"] unless params["Beer Country"].nil?
+      search_terms['vendors.district'] = params["HK Location"] unless params["HK Location"].nil?
+      search_terms['beers.simpstyle'] = params["Beer Style"] unless params["Beer Style"].nil?
+      search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
+      search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
+      @bars = Vendor.joins(:beers).where(search_terms).uniq
+
+      #@bars = Vendor.joins(:beers).where({
+      #  'beers.country': params["Beer Country"],
+      #  'vendors.district': params["HK Location"],
+      #  'beers.simpstyle': params["Beer Style"],
+      #  'beers.brewery': params["Brewery Name"],
+      #  'beers.name': params["Beer Name"]
+      #}).uniq
+
+      # @bars = Vendor.joins(:beers).where("beers.country = ? AND district = ?", "USA", "Sheung Wan").uniq
+
+      # @bars = VendorType.includes(:vendor).where(vendor_type: 'Bar').map(&:vendor) # returns just bars
 
       if @bars.nil?
         render json: { message: "Cannot find bars" }, status: :not_found

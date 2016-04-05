@@ -2576,8 +2576,56 @@ simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
 })
 
 menus = {
-  v1 => [b1, b2, b3],
-  v2 => [b10, b11, b12]
+  v1 => [b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40], # AmeriCraft Imports
+  v2 => [b10, b11, b12], #
+  v3 => [b1, b2, b3, b4, b5, b6, b7, b8], # Beers R Us
+  v4 => [b1], # Best Bev
+  v5 => [b85, b86, b87, b88, b89, b90], # Black Kite
+  v6 => [b1], #
+  v7 => [b1], #
+  v8 => [b1], #
+  v9 => [b1], #
+  v10 => [b1], #
+  v11 => [b1], #
+  v12 => [b1], #
+  v13 => [b1], #
+  v14 => [b1], #
+  v15 => [b1], #
+  v16 => [b83, b84], # Gweilo
+  v17 => [b1], #
+  v18 => [b91, b92, b93, b94, b95, b96], # Hong Kong Brewery
+  v19 => [b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68, b69, b70, b71, b72, b73, b74, b75, b76, b77, b78, b79, b80, b81, b82], # Hop Leaf
+  v20 => [b1], #
+  v21 => [b97, b98, b99, b100], # Kowloon Bay Brewery
+  v22 => [b1], #
+  v23 => [b1], #
+  v24 => [b1], # Moonzen
+  v25 => [b1], # Nine Dragons Brewery
+  v26 => [b1], #
+  v27 => [b1], #
+  v28 => [b1], #
+  v29 => [b1], # Tai Pan
+  v30 => [b1], #
+  v31 => [b1], #
+  v32 => [b1], #
+  v33 => [b1], #
+  v34 => [b1], #
+  v35 => [b1], #
+  v36 => [b1], #
+  v37 => [b1], #
+  v38 => [b1], #
+  v39 => [b1], # Yardley Brothers
+  v40 => [b1], # Young Master
+  v41 => [b1], #
+  v42 => [b1], #
+  v43 => [b1], #
+  v44 => [b1], #
+  v45 => [b1], #
+  v46 => [b1], #
+  v47 => [b1], #
+  v48 => [b1], #
+  v49 => [b1], #
+  v50 => [b1] #
 }
 
 menus.each do |vendor, beers|
