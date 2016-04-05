@@ -124,7 +124,7 @@ module Api
     private
 
     def beer_params
-      params.require(:beer).permit(:name, :brewery, :country, :style, :abv)
+      params.require(:beer).permit(:name, :brewery, :country, :style, :simpstyle, :importer, :abv, :name_image, :brewery_image, :country_image, :simpstyle_image)
     end
   end
 end

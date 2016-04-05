@@ -53,7 +53,7 @@ module Api
       search_terms['beers.simpstyle'] = params["Beer Style"] unless params["Beer Style"].nil?
       search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
       search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
-      @bars = Vendor.joins(:beers).where(search_terms).uniq
+      @bars = Vendor.joins(:beers).joins(:vendor_types).where(search_terms).where('vendor_types.vendor_type': 'Bar').uniq
 
       #@bars = Vendor.joins(:beers).where({
       #  'beers.country': params["Beer Country"],
@@ -64,7 +64,6 @@ module Api
       #}).uniq
 
       # @bars = Vendor.joins(:beers).where("beers.country = ? AND district = ?", "USA", "Sheung Wan").uniq
-
       # @bars = VendorType.includes(:vendor).where(vendor_type: 'Bar').map(&:vendor) # returns just bars
 
       if @bars.nil?
@@ -75,8 +74,31 @@ module Api
     end
 
     def beers_results
-      @beer = Beer.all
-      render json: @beer
+      # @beer = Beer.all
+
+      puts ">>>>>>>"
+      puts "[#{params["Beer Country"]}]"
+      puts "[#{params["Vendor Type"]}]"
+      puts "[#{params["HK Location"]}]"
+      puts "[#{params["Beer Style"]}]"
+      puts "[#{params["Brewery Name"]}]"
+      puts "[#{params["Beer Name"]}]"
+      puts "<<<<<<<"
+
+      search_terms = {}
+      search_terms['beers.country'] = params["Beer Country"] unless params["Beer Country"].nil?
+      search_terms['vendor_types.vendor_type'] = params["Vendor Type"] unless params["Vendor Type"].nil?
+      search_terms['vendors.district'] = params["HK Location"] unless params["HK Location"].nil?
+      search_terms['beers.simpstyle'] = params["Beer Style"] unless params["Beer Style"].nil?
+      search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
+      search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
+      @beers = Beer.joins(:vendors => :vendor_types).where(search_terms).uniq
+
+       if @beers.nil?
+        render json: { message: "Cannot find beers" }, status: :not_found
+      else
+        render json: @beers
+      end
     end
 
     def vendor_details
@@ -126,7 +148,7 @@ module Api
     private
 
     def vendor_params
-      params.require(:vendor).permit(:title, :content, :category)
+      params.require(:vendor).permit(:image_url, :street_address, :region, :phone_number, :email, :website_url, :facebook_url, :twitter_url, :instagram_url, :latitude, :longitude, :has_tap)
     end
   end
 end
