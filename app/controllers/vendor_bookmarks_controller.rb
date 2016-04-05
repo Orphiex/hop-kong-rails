@@ -1,2 +1,0 @@
-class VendorBookmarksController < ApplicationController
-end
