@@ -86,18 +86,26 @@ module Api
       puts "<<<<<<<"
 
       search_terms = {}
-      search_terms['beers.country'] = params["Beer Country"] unless params["Beer Country"].nil?
-      search_terms['vendor_types.vendor_type'] = params["Vendor Type"] unless params["Vendor Type"].nil?
-      search_terms['vendors.district'] = params["HK Location"] unless params["HK Location"].nil?
-      search_terms['beers.simpstyle'] = params["Beer Style"] unless params["Beer Style"].nil?
-      search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
-      search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
-      @beers = Beer.joins(:vendors => :vendor_types).where(search_terms).uniq
+      search_terms['beers.country'] = params.data["Beer Country"] unless params["Beer Country"].nil?
+      search_terms['vendor_types.vendor_type'] = params.data["Vendor Type"] unless params["Vendor Type"].nil?
+      search_terms['vendors.district'] = params.data["HK Location"] unless params["HK Location"].nil?
+      search_terms['beers.simpstyle'] = params.data["Beer Style"] unless params["Beer Style"].nil?
+      search_terms['beers.brewery'] = params.data["Brewery Name"] unless params["Brewery Name"].nil?
+      search_terms['beers.name'] = params.data["Beer Name"] unless params["Beer Name"].nil?
+      @user_id = params[:user_id_tmp]
+      @beers = Beer.includes(:beer_bookmarks).joins(:vendors => :vendor_types).where(search_terms).uniq
+      # @bookmarked = @beers.map do |beer|
+      #   is_bookmarked = false
+      #   beer.bookmarks.each do |bookmark|
+      #     is_bookmarked = true if bookmark.user_id == 1
+      #   end
+      #   is_bookmarked
+      # end
 
-       if @beers.nil?
+      if @beers.nil?
         render json: { message: "Cannot find beers" }, status: :not_found
       else
-        render json: @beers
+        @beers
       end
     end
 

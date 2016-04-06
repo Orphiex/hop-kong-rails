@@ -82,14 +82,16 @@ module Api
     end
 
     def quicksearch
-      @beers = Beer.where("lower(name) like ?", "%#{params[:string]}%")
-
-      render json: @beers
+      puts ">>>> params[:user_id_tmp]"
+      @user_id = params[:user_id_tmp]
+      @beers = Beer.includes(:beer_bookmarks).where("lower(name) like ?", "%#{params[:string]}%")
+      @beers
     end
 
     def beers_list
       @beers = Vendor.includes(:beers).find_by(id: params[:vendor_id]).beers
-      render json: @beers
+      @vendor_name = Vendor.find_by(id: params[:vendor_id]).name
+      @beers
     end
 
     # def create
