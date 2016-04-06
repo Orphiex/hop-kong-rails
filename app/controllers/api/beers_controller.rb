@@ -12,7 +12,7 @@ module Api
       if @beer.nil?
         render json: { message: "Cannot find beer" }, status: :not_found
       else
-        render json: @beer
+        @beer
       end
     end
 
@@ -82,7 +82,6 @@ module Api
     end
 
     def quicksearch
-      puts ">>>> params[:user_id_tmp]"
       @user_id = params[:user_id_tmp]
       @beers = Beer.includes(:beer_bookmarks).where("lower(name) like ?", "%#{params[:string]}%")
       @beers

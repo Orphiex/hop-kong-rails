@@ -9,5 +9,6 @@ json.array! @beers do |beer|
   json.country_image beer.country_image
   json.brewery_image beer.brewery_image
   json.simpstyle_image beer.simpstyle_image
-  json.user_bookmark beer.beer_bookmarks(user_id: @user_id)
+  json.user_bookmark beer.beer_bookmarks.where(user_id: @user_id)
+  json.is_bookmarked beer.beer_bookmarks.where(user_id: @user_id).length > 0
 end

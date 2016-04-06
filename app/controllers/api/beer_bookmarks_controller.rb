@@ -26,6 +26,7 @@ module Api
 
     def create
       bookmark = BeerBookmark.new(bookmark_params)
+      bookmark.save
 
       render json: bookmark
     end
