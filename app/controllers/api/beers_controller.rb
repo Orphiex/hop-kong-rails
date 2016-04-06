@@ -88,6 +88,7 @@ module Api
     end
 
     def beers_list
+      # @user_id = params[:user_id_tmp]
       @beers = Vendor.includes(:beers).find_by(id: params[:vendor_id]).beers
       @vendor_name = Vendor.find_by(id: params[:vendor_id]).name
       @beers
