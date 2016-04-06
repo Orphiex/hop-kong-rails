@@ -1247,7 +1247,7 @@ v59.vendor_types << v59vt2
 
 v60 = Vendor.create({
 name: "Dickens Bar",
-image_url: "http://i.imgur.com/d1F8g7R.jpg",
+image_url: "http://i.imgur.com/RzSiCzC.jpg",
 street_address: "281 Gloucester Road",
 district: "Causeway Bay",
 region: "Hong Kong Island",
@@ -3639,7 +3639,28 @@ menus = {
   v47 => [b1], # Mavericks
   v48 => [b1], # The Beach House
   v49 => [b1], # Stone Nullah Tavern
-  v50 => [b1] # Brewdog
+  v50 => [b1], # Brewdog
+  v51 => [b1,b9,b14,b21,b95,b101], # Duddels
+  v52 => [b1], #
+  v53 => [b1], #
+  v54 => [b1], #
+  v55 => [b1], #
+  v56 => [b1], #
+  v57 => [b1], #
+  v58 => [b1], #
+  v59 => [b1], #
+  v60 => [b1], #
+  v61 => [b1], #
+  v62 => [b1], #
+  v63 => [b1], #
+  v64 => [b1], #
+  v65 => [b1], #
+  v66 => [b1], #
+  v67 => [b1], #
+  v68 => [b1], #
+  v69 => [b1] #
+
+
 }
 
 menus.each do |vendor, beers|
