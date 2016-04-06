@@ -1458,7 +1458,8 @@ b1 = Beer.create({
   name_image: "",
   brewery_image: "http://i.imgur.com/aNY2uwN.jpg",
   country_image: "http://i.imgur.com/yqJa3qh.png",
-  simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+  simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+  barcode: "0"
 })
 
 
@@ -1473,7 +1474,8 @@ b2 = Beer.create({
   name_image: "",
   brewery_image: "http://i.imgur.com/aNY2uwN.jpg",
   country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-  simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+  simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+  barcode: "0"
 })
 
 
@@ -1488,7 +1490,8 @@ b3 = Beer.create({
   name_image: "",
   brewery_image: "http://i.imgur.com/sWr0VBQ.png",
   country_image: "http://i.imgur.com/yqJa3qh.png",
-  simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde golden
+  simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde golden
+  barcode: "0"
 })
 
 
@@ -1503,7 +1506,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/sWr0VBQ.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1518,7 +1522,8 @@ abv: 8.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/30Uyz6e.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1533,7 +1538,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/30Uyz6e.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -1548,7 +1554,8 @@ abv: 7.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/30Uyz6e.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -1563,7 +1570,8 @@ abv: 6.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/30Uyz6e.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1578,7 +1586,8 @@ abv: 4.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/f9cOrxk.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "796030214967"
 })
 
 
@@ -1593,7 +1602,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/f9cOrxk.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1608,7 +1618,8 @@ abv: 4.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/f9cOrxk.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -1623,7 +1634,8 @@ abv: 5.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/f9cOrxk.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -1638,7 +1650,8 @@ abv: 4.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0642860300243"
 })
 
 
@@ -1653,7 +1666,8 @@ abv: 7.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1668,7 +1682,8 @@ abv: 8.3,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -1683,7 +1698,8 @@ abv: 8.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -1698,7 +1714,8 @@ abv: 6.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -1713,7 +1730,8 @@ abv: 5.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/0F6OJHu.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -1728,7 +1746,8 @@ abv: 4.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/0F6OJHu.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -1743,7 +1762,8 @@ abv: 7.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/0F6OJHu.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 b21 = Beer.create({
@@ -1757,7 +1777,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/0F6OJHu.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "751249252124"
 })
 
 
@@ -1772,7 +1793,8 @@ abv: 4.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/0F6OJHu.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1787,7 +1809,8 @@ abv: 5.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/nnHMKVl.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -1802,7 +1825,8 @@ abv: 4.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/nnHMKVl.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -1817,7 +1841,8 @@ abv: 10.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1832,7 +1857,8 @@ abv: 8.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -1847,7 +1873,8 @@ abv: 5.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -1862,7 +1889,8 @@ abv: 6.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1877,7 +1905,8 @@ abv: 8.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -1892,7 +1921,8 @@ abv: 8.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 b31 = Beer.create({
@@ -1906,7 +1936,8 @@ abv: 11.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1921,7 +1952,8 @@ abv: 10.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/NzeBF2J.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1936,7 +1968,8 @@ abv: 4.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -1951,7 +1984,8 @@ abv: 6.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1966,7 +2000,8 @@ abv: 5.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -1981,7 +2016,8 @@ abv: 10.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -1996,7 +2032,8 @@ abv: 5.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2011,7 +2048,8 @@ abv: 4.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "07278358"
 })
 
 
@@ -2026,7 +2064,8 @@ abv: 4.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2041,7 +2080,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/eMCTIOv.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg", # fruit
+barcode: "0"
 })
 
 
@@ -2056,7 +2096,8 @@ abv: 4.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2071,7 +2112,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -2086,7 +2128,8 @@ abv: 5.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2101,7 +2144,8 @@ abv: 7.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2116,7 +2160,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2131,7 +2176,8 @@ abv: 8.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/LXIkFbl.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2146,7 +2192,8 @@ abv: 5.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2161,7 +2208,8 @@ abv: 5.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2176,7 +2224,8 @@ abv: 6.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2191,7 +2240,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2206,7 +2256,8 @@ abv: 6.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2221,7 +2272,8 @@ abv: 3.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2236,7 +2288,8 @@ abv: 8.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/AFpEWCI.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 
@@ -2251,7 +2304,8 @@ abv: 10.1,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg", # fruit
+barcode: "0"
 })
 
 
@@ -2266,7 +2320,8 @@ abv: 11.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg", # fruit
+barcode: "0"
 })
 
 
@@ -2281,7 +2336,8 @@ abv: 9.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg", # fruit
+barcode: "0"
 })
 
 
@@ -2296,7 +2352,8 @@ abv: 8.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -2311,7 +2368,8 @@ abv: 6.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2326,7 +2384,8 @@ abv: 8.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2341,7 +2400,8 @@ abv: 6.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -2356,7 +2416,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -2371,7 +2432,8 @@ abv: 10.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -2386,7 +2448,8 @@ abv: 8.1,
 name_image: "",
 brewery_image: "http://i.imgur.com/F8DmnyR.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg", # saison
+barcode: "0"
 })
 
 
@@ -2401,7 +2464,8 @@ abv: 6.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2416,7 +2480,8 @@ abv: 4.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg", # saison
+barcode: "0"
 })
 
 
@@ -2431,7 +2496,8 @@ abv: 5.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -2446,7 +2512,8 @@ abv: 4.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -2461,7 +2528,8 @@ abv: 4.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2476,7 +2544,8 @@ abv: 9.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2491,7 +2560,8 @@ abv: 7.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/aM8yRqs.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 
@@ -2506,7 +2576,8 @@ abv: 6.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2521,7 +2592,8 @@ abv: 5.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2536,7 +2608,8 @@ abv: 6.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -2551,7 +2624,8 @@ abv: 4.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/cT2NXXQ.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2566,7 +2640,8 @@ abv: 8.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2581,7 +2656,8 @@ abv: 7.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -2596,7 +2672,8 @@ abv: 5.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2611,7 +2688,8 @@ abv: 7.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2626,7 +2704,8 @@ abv: 4.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2641,7 +2720,8 @@ abv: 6.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2656,7 +2736,8 @@ abv: 7.3,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -2671,7 +2752,8 @@ abv: 8.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/kB8wW4B.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2686,7 +2768,8 @@ abv: 4.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/geLBSVP.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2701,7 +2784,8 @@ abv: 4.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/geLBSVP.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2716,7 +2800,8 @@ abv: 4.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 
@@ -2731,7 +2816,8 @@ abv: 5.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2746,7 +2832,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2761,7 +2848,8 @@ abv: 5.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2776,7 +2864,8 @@ abv: 5.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -2791,7 +2880,8 @@ abv: 5.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2806,7 +2896,8 @@ abv: 4.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/5rR9Zgn.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 
@@ -2821,7 +2912,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/5rR9Zgn.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2836,7 +2928,8 @@ abv: 5.1,
 name_image: "",
 brewery_image: "http://i.imgur.com/5rR9Zgn.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -2851,7 +2944,8 @@ abv: 5.3,
 name_image: "",
 brewery_image: "http://i.imgur.com/5rR9Zgn.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2866,7 +2960,8 @@ abv: 7.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/5rR9Zgn.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2881,7 +2976,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/5rR9Zgn.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -2896,7 +2992,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -2911,7 +3008,8 @@ abv: 4.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2926,7 +3024,8 @@ abv: 5.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -2941,7 +3040,8 @@ abv: 7.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -2956,7 +3056,8 @@ abv: 5.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/S55RyqI.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/crdmyNa.jpg" # brown
+simpstyle_image: "http://i.imgur.com/crdmyNa.jpg", # brown
+barcode: "0"
 })
 
 
@@ -2971,7 +3072,8 @@ abv: 4.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -2986,7 +3088,8 @@ abv: 5.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3001,7 +3104,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -3016,7 +3120,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -3031,7 +3136,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3046,7 +3152,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -3061,7 +3168,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/WP2Cw5r.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -3076,7 +3184,8 @@ abv: 6.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/pGW4Nwx.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 
@@ -3091,7 +3200,8 @@ abv: 4.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/pGW4Nwx.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -3106,7 +3216,8 @@ abv: 5.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/pGW4Nwx.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg" # fruit
+simpstyle_image: "http://i.imgur.com/YpsQZy2.jpg", # fruit
+barcode: "0"
 })
 
 
@@ -3121,7 +3232,8 @@ abv: 5.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/FNfxD8A.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3136,7 +3248,8 @@ abv: 6.4,
 name_image: "",
 brewery_image: "http://i.imgur.com/FNfxD8A.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3151,7 +3264,8 @@ abv:  5.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/FNfxD8A.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -3166,7 +3280,8 @@ abv: 4.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/FNfxD8A.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg" # wheat
+simpstyle_image: "http://i.imgur.com/pGrLnoZ.jpg", # wheat
+barcode: "0"
 })
 
 
@@ -3181,7 +3296,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/FNfxD8A.png",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3196,7 +3312,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/CvKr11p.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3211,7 +3328,8 @@ abv: 7.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/CvKr11p.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3226,7 +3344,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/CvKr11p.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg" # amber
+simpstyle_image: "http://i.imgur.com/0qfH7oV.jpg", # amber
+barcode: "0"
 })
 
 
@@ -3241,7 +3360,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/CvKr11p.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -3256,7 +3376,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/CvKr11p.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/7nN8rXs.png" # Porter / Stout
+simpstyle_image: "http://i.imgur.com/7nN8rXs.png", # Porter / Stout
+barcode: "0"
 })
 
 
@@ -3271,7 +3392,8 @@ abv: 4.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/w4T8mXp.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -3286,7 +3408,8 @@ abv: 5.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/w4T8mXp.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3301,7 +3424,8 @@ abv: 6.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/w4T8mXp.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3316,7 +3440,8 @@ abv: 5.6,
 name_image: "",
 brewery_image: "http://i.imgur.com/w4T8mXp.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -3331,7 +3456,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/w4T8mXp.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg", # saison
+barcode: "0"
 })
 
 
@@ -3346,7 +3472,8 @@ abv: 4.7,
 name_image: "",
 brewery_image: "http://i.imgur.com/uIYlC97.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/kmDgza7.jpg" # lager
+simpstyle_image: "http://i.imgur.com/kmDgza7.jpg", # lager
+barcode: "0"
 })
 
 
@@ -3361,7 +3488,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/uIYlC97.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3376,7 +3504,8 @@ abv: 6.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/uIYlC97.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -3391,7 +3520,8 @@ abv: 8.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/uIYlC97.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3406,7 +3536,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/hc90QZh.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3421,7 +3552,8 @@ abv: 0.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/hc90QZh.jpg",
 country_image: "http://i.imgur.com/PflNAJq.png", # Hong Kong
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3436,7 +3568,8 @@ abv: 6.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/f23bRqq.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg", # saison
+barcode: "0"
 })
 
 
@@ -3451,7 +3584,8 @@ abv: 5.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/f23bRqq.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3466,7 +3600,8 @@ abv: 5.2,
 name_image: "",
 brewery_image: "http://i.imgur.com/f23bRqq.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 
@@ -3481,7 +3616,8 @@ abv: 12.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/f23bRqq.png",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/cJGbeYN.png" # IPA
+simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
+barcode: "0"
 })
 
 
@@ -3496,7 +3632,8 @@ abv: 4.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg", # saison
+barcode: "0"
 })
 
 
@@ -3511,7 +3648,8 @@ abv: 4.3,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -3526,7 +3664,8 @@ abv:  6.8,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/3ECt2er.jpg" # saison
+simpstyle_image: "http://i.imgur.com/3ECt2er.jpg", # saison
+barcode: "0"
 })
 
 
@@ -3541,7 +3680,8 @@ abv: 5.9,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/ZyXizr2.png" # other
+simpstyle_image: "http://i.imgur.com/ZyXizr2.png", # other
+barcode: "0"
 })
 
 
@@ -3556,7 +3696,8 @@ abv: 6.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg" # pale ale
+simpstyle_image: "http://i.imgur.com/Ko8Udeq.jpg", # pale ale
+barcode: "0"
 })
 
 
@@ -3571,7 +3712,8 @@ abv: 7.5,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/crdmyNa.jpg" # brown
+simpstyle_image: "http://i.imgur.com/crdmyNa.jpg", # brown
+barcode: "0"
 })
 
 
@@ -3586,7 +3728,8 @@ abv: 8.0,
 name_image: "",
 brewery_image: "http://i.imgur.com/z7vvBml.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
-simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg" # blonde
+simpstyle_image: "http://i.imgur.com/tqxZtaO.jpg", # blonde
+barcode: "0"
 })
 
 menus = {
