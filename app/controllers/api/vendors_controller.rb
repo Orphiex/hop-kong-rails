@@ -53,6 +53,8 @@ module Api
       search_terms['beers.simpstyle'] = params["Beer Style"] unless params["Beer Style"].nil?
       search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
       search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
+
+      @user_id = current_user.id
       @bars = Vendor.joins(:beers).joins(:vendor_types).where(search_terms).where('vendor_types.vendor_type': 'Bar').uniq
 
       #@bars = Vendor.joins(:beers).where({
@@ -69,7 +71,7 @@ module Api
       if @bars.nil?
         render json: { message: "Cannot find bars" }, status: :not_found
       else
-        render json: @bars
+        @bars
       end
     end
 
