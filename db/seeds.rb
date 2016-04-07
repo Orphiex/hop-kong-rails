@@ -6,6 +6,7 @@ BeerBookmark.destroy_all
 VendorBookmark.destroy_all
 #User.destroy_all
 
+
 v1 = Vendor.create({
   name: "AmeriCraft Imports",
   image_url: "http://i.imgur.com/J2LHhLe.jpg",
@@ -1444,6 +1445,27 @@ v69vt1 = VendorType.create(vendor_type: "Restaurant")
 v69.vendor_types << v69vt1
 
 
+v70 = Vendor.create({
+name: "Lion Rock Brewery",
+image_url: "http://i.imgur.com/FNfxD8A.png",
+street_address: "Man Shing Industrial Building, 307 Castle Peak Road",
+district: "Kwai Fong",
+region: "New Territories",
+phone_number: "6467-6241",
+email: "Not Provided",
+website_url: "",
+facebook_url: "",
+twitter_url: "",
+instagram_url: "",
+latitude: 0,
+longitude: 0,
+has_tap: false
+})
+v70vt1 = VendorType.create(vendor_type: "Brewery")
+v70.vendor_types << v70vt1
+
+
+
 b1 = Beer.create({
   name: "10 Barrel Apocalypse IPA",
   brewery: "10 Barrel",
@@ -1648,7 +1670,7 @@ name_image: "",
 brewery_image: "http://i.imgur.com/cB2oI3d.jpg",
 country_image: "http://i.imgur.com/yqJa3qh.png", # USA
 simpstyle_image: "http://i.imgur.com/cJGbeYN.png", # IPA
-barcode: "0642860300243"
+barcode: "642860300243"
 })
 
 
@@ -3745,7 +3767,7 @@ menus = {
   v13 => [b9, b19, b29, b39, b49], # Crafty Cow
   v14 => [b1], # De Belgie
   v15 => [b13, b23, b33, b43, b53], # Granville Island
-  v16 => [b83, b84], # Gweilo
+  v16 => [b83, b84], # Gweilo Beer
   v17 => [b1], # HK BrewCraft
   v18 => [b91, b92, b93, b94, b95, b96], # Hong Kong Brewery
   v19 => [b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68, b69, b70, b71, b72, b73, b74, b75, b76, b77, b78, b79, b80, b81, b82], # Hop Leaf
@@ -3753,8 +3775,8 @@ menus = {
   v21 => [b97, b98, b99, b100], # Kowloon Bay Brewery
   v22 => [b1], # Kowloon Taproom
   v23 => [b1], # Little Beer Room
-  v24 => [b1], # Moonzen Brewery
-  v25 => [b1], # Nine Dragons Brewery
+  v24 => [b117,b118,b119,b120,b121], # Moonzen Brewery
+  v25 => [b122,b123,b124,b125,b126], # Nine Dragons Brewery
   v26 => [b1], # SIPS HK"
   v27 => [b1], # Soho Wines & Spirits (Central)
   v28 => [b1], # Soho Wines & Spirits (SYP)
@@ -3768,8 +3790,8 @@ menus = {
   v36 => [b1], # The Tramline Liquor Company
   v37 => [b1], # Thirsty Brothers
   v38 => [b1], # Tipping Point Brewing Company
-  v39 => [b1], # Yardley Brothers
-  v40 => [b1], # Young Master
+  v39 => [b131,b132], # Yardley Brothers
+  v40 => [b127,b128,b129,b130], # Young Master
   v41 => [b1], # Lily & Bloom
   v42 => [b1], # Hooked
   v43 => [b1], # Beer & Fish (Central)
@@ -3792,13 +3814,14 @@ menus = {
   v60 => [b1], #
   v61 => [b1], #
   v62 => [b1], #
-  v63 => [b1], #
-  v64 => [b1], #
+  v63 => [b102,b103,b104,b105,b106,b107,b108], # Mak's
+  v64 => [b109,b110,b111], # The Artist
   v65 => [b1], #
   v66 => [b1], #
   v67 => [b1], #
   v68 => [b1], #
-  v69 => [b1] #
+  v69 => [b1], #
+  v70 => [b112,b113,b114,b115,b116] # Lion Rock Brewery
 
 
 }
