@@ -1,3 +1,4 @@
-json.(@vendor.id, :name, :street_address, :district, :region, :phone_number, :email, :website_url, :twitter_url, :instagram_url, :facebook_url, :latitude, :longitude, :has_tap)
+json.merge! @vendor.attributes
 
-json.vendor_type @vendor.vendor_type, :id, :vendor_id, :vendor_type
+json.user_bookmark @vendor.vendor_bookmarks.where(user_id: @user_id)
+json.is_bookmarked @vendor.vendor_bookmarks.where(user_id: @user_id).length > 0

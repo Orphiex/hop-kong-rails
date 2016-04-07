@@ -8,6 +8,7 @@ module Api
 
     def show
       @beer = Beer.find(params[:id])
+      @user_id = params[:user_id]
 
       if @beer.nil?
         render json: { message: "Cannot find beer" }, status: :not_found

@@ -25,8 +25,7 @@ module Api
     end
 
     def create
-      bookmark = VendorBookmark.new(bookmark_params)
-      bookmark.save
+      bookmark = VendorBookmark.find_or_create_by(bookmark_params)
 
       render json: bookmark
     end
