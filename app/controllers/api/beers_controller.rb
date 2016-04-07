@@ -73,7 +73,7 @@ module Api
     end
 
     def barcode
-      @beer = Beer.find(params[:barcode])
+      @beer = Beer.find_by(barcode: params[:barcode])
 
       if @beer.nil?
         render json: { message: "Cannot find beer" }, status: :not_found
