@@ -6,9 +6,6 @@ BeerBookmark.destroy_all
 VendorBookmark.destroy_all
 #User.destroy_all
 
-#VendorBookmark.destroy_all
-#BeerBookmark.destroy_all
-
 v1 = Vendor.create({
   name: "AmeriCraft Imports",
   image_url: "http://i.imgur.com/J2LHhLe.jpg",
@@ -3736,18 +3733,18 @@ menus = {
   v1 => [b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40], # AmeriCraft Imports
   v2 => [b10, b11, b12], # Beerhound
   v3 => [b1, b2, b3, b4, b5, b6, b7, b8], # Beers R Us
-  v4 => [b1], # Best Bev
+  v4 => [b1, b11, b22, b33 ,b44], # Best Bev
   v5 => [b85, b86, b87, b88, b89, b90], # Black Kite Brewery
-  v6 => [b1], # COEDO Taproom
-  v7 => [b1], # Craft Beer & Co (Central)
-  v8 => [b1], # Craft Beer & Co (KT)
-  v9 => [b1], # Craft Beer & Co (SYP)
-  v10 => [b1], # Craft Revolution
-  v11 => [b1], # Craftissimo (SW)
-  v12 => [b1], # Craftissimo (TST East)
-  v13 => [b1], # Crafty Cow
+  v6 => [b6, b16, b26, b36, b46], # COEDO Taproom
+  v7 => [b2, b12, b22, b32, b42], # Craft Beer & Co (Central)
+  v8 => [b2, b12, b22, b32, b42], # Craft Beer & Co (KT)
+  v9 => [b2, b12, b22, b32, b42], # Craft Beer & Co (SYP)
+  v10 => [b7, b17, b27, b37, b47], # Craft Revolution
+  v11 => [b8, b18, b28, b38, b48], # Craftissimo (SW)
+  v12 => [b8, b18, b28, b38, b48], # Craftissimo (TST East)
+  v13 => [b9, b19, b29, b39, b49], # Crafty Cow
   v14 => [b1], # De Belgie
-  v15 => [b1], # Granville Island
+  v15 => [b13, b23, b33, b43, b53], # Granville Island
   v16 => [b83, b84], # Gweilo
   v17 => [b1], # HK BrewCraft
   v18 => [b91, b92, b93, b94, b95, b96], # Hong Kong Brewery
@@ -3763,9 +3760,9 @@ menus = {
   v28 => [b1], # Soho Wines & Spirits (SYP)
   v29 => [b1], # Tai Pan
   v30 => [b1], # The Ale Project
-  v31 => [b1], # The Beer Bay
+  v31 => [b1, b11, b21, b33, b43, b53, b63, b73, b83, b93], # The Beer Bay
   v32 => [b1], # The Bottle Shop
-  v33 => [b1], # The Globe
+  v33 => [b1, b11, b21, b33, b43, b53, b63, b73, b83, b93], # The Globe
   v34 => [b1], # The Roundhouse Taproom (Central)
   v35 => [b1], # The Roundhouse Taproom (Wan Chai)
   v36 => [b1], # The Tramline Liquor Company

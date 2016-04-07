@@ -8,12 +8,13 @@ module Api
     end
 
     def show
+      @user_id = params[:user_id]
       @vendor = Vendor.find_by_id(params[:id])
 
       if @vendor.nil?
         render json: { message: "Cannot find vendor" }, status: :not_found
       else
-        render json: @vendor, include: [:vendor_types]
+        @vendor
       end
     end
 
@@ -95,7 +96,7 @@ module Api
       search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
       search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
 
-      @user_id = current_user.id
+      @user_id = current_user ? current_user.id : nil
       @beers = Beer.includes(:beer_bookmarks).joins(:vendors => :vendor_types).where(search_terms).uniq
       # @bookmarked = @beers.map do |beer|
       #   is_bookmarked = false
