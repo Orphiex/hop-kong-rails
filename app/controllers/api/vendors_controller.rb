@@ -55,7 +55,7 @@ module Api
       search_terms['beers.brewery'] = params["Brewery Name"] unless params["Brewery Name"].nil?
       search_terms['beers.name'] = params["Beer Name"] unless params["Beer Name"].nil?
 
-      @user_id = current_user.id
+      @user_id = current_user ? current_user.id : nil
       @bars = Vendor.joins(:beers).joins(:vendor_types).where(search_terms).where('vendor_types.vendor_type': 'Bar').uniq
 
       #@bars = Vendor.joins(:beers).where({
@@ -98,6 +98,7 @@ module Api
 
       @user_id = current_user ? current_user.id : nil
       @beers = Beer.includes(:beer_bookmarks).joins(:vendors => :vendor_types).where(search_terms).uniq
+      @beers = @beers.to_a.sort_by!{ |beer| beer.name.downcase }
       # @bookmarked = @beers.map do |beer|
       #   is_bookmarked = false
       #   beer.bookmarks.each do |bookmark|
