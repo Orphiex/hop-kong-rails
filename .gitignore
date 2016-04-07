@@ -31,3 +31,5 @@ pickle-email-*.html
 .env
 
 .DS_Store
+
+bower_components

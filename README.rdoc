@@ -26,3 +26,8 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+v1 = Vendor.create('The Globe')
+b1 = Beer.create{ :name => 'Mrs. Holloway' }
+beer.menus << Menu.create({ :vendor => v1 })
+
