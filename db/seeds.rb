@@ -5803,8 +5803,8 @@ country: "Canada",
 style: "Pale Ale",
 simpstyle: "Pale Ale",
 abv: 5.2,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/VPDF4bA.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/VPDF4bA.jpg",
 country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
 simpstyle_image: "",
 barcode: "0"
@@ -5819,8 +5819,8 @@ country: "Canada",
 style: "Pilsner",
 simpstyle: "Lager",
 abv: 5.0,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/VPDF4bA.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/VPDF4bA.jpg",
 country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
 simpstyle_image: "",
 barcode: "0"
@@ -5835,8 +5835,8 @@ country: "Australia",
 style: "Pale Ale",
 simpstyle: "Pale Ale",
 abv: 4.9,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/PSMq89f.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/PSMq89f.jpg",
 country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
 simpstyle_image: "",
 barcode: "0"
@@ -5851,8 +5851,8 @@ country: "Belgium",
 style: "Blonde",
 simpstyle: "Blonde / Golden Ale",
 abv: 8.5,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/yywpmp8.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/yywpmp8.jpg",
 country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
 simpstyle_image: "",
 barcode: "0"
@@ -5867,8 +5867,8 @@ country: "Belgium",
 style: "Belgian Strong Ale",
 simpstyle: "Other",
 abv: 8.5,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/yywpmp8.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/yywpmp8.jpg",
 country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
 simpstyle_image: "",
 barcode: "0"
@@ -5884,8 +5884,8 @@ country: "New Zealand",
 style: "White Beer",
 simpstyle: "Wheat Beer",
 abv: 4.4,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/L77zoWj.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/L77zoWj.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5901,8 +5901,8 @@ country: "New Zealand",
 style: "Pale Ale",
 simpstyle: "Pale Ale",
 abv: 4.4,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/L77zoWj.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/L77zoWj.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5918,8 +5918,8 @@ country: "New Zealand",
 style: "Golden Ale",
 simpstyle: "Blonde / Golden Ale",
 abv: 7.0,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/L77zoWj.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/L77zoWj.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5934,8 +5934,8 @@ country: "New Zealand",
 style: "Black IPA",
 simpstyle: "IPA",
 abv: 6.0,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/L77zoWj.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/L77zoWj.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5950,8 +5950,8 @@ country: "New Zealand",
 style: "IPA",
 simpstyle: "IPA",
 abv: 7.0,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/L77zoWj.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/L77zoWj.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5966,8 +5966,8 @@ country: "New Zealand",
 style: "Amber Ale",
 simpstyle: "Amber Ale",
 abv: 6.8,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/L77zoWj.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/L77zoWj.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5982,8 +5982,8 @@ country: "New Zealand",
 style: "Black Stout",
 simpstyle: "Porter / Stout",
 abv: 4.5,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/sPt0axo.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/sPt0axo.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -5998,8 +5998,8 @@ country: "New Zealand",
 style: "Pilsner",
 simpstyle: "Lager",
 abv: 5.2,
-name_image: "",
-brewery_image: "",
+name_image: "http://i.imgur.com/sPt0axo.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/sPt0axo.jpg",
 country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
 simpstyle_image: "",
 barcode: "0"
@@ -6134,70 +6134,6 @@ barcode: "0"
 })
 
 
-
-b300 = Beer.create({
-name: "",
-brewery: "",
-importer: "",
-country: "",
-style: "",
-simpstyle: "",
-abv: 0.0,
-name_image: "",
-brewery_image: "",
-country_image: "", #
-simpstyle_image: "", #
-barcode: "0"
-})
-
-
-b301 = Beer.create({
-name: "",
-brewery: "",
-importer: "",
-country: "",
-style: "",
-simpstyle: "",
-abv: 0.0,
-name_image: "",
-brewery_image: "",
-country_image: "", #
-simpstyle_image: "", #
-barcode: "0"
-})
-
-
-b302 = Beer.create({
-name: "",
-brewery: "",
-importer: "",
-country: "",
-style: "",
-simpstyle: "",
-abv: 0.0,
-name_image: "",
-brewery_image: "",
-country_image: "", #
-simpstyle_image: "", #
-barcode: "0"
-})
-
-
-b303 = Beer.create({
-name: "",
-brewery: "",
-importer: "",
-country: "",
-style: "",
-simpstyle: "",
-abv: 0.0 ,
-name_image: "",
-brewery_image: "",
-country_image: "", #
-simpstyle_image: "", #
-barcode: "0"
-})
-
 menus = {
   v1 => [b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b133, b134, b135, b136, b137, b138, b139, b140, b141, b142, b143], # AmeriCraft Imports
   v2 => [b10, b11, b12], # Beerhound
@@ -6267,7 +6203,7 @@ menus = {
   v66 => [b1], # Itchi
   v67 => [b1], # Ruggers
   v68 => [b1], # Beeger (KT)
-  v69 => [b1,b2.b3.b4], # Beeger (Tin Hau)
+  v69 => [b1,b2,b3,b4], # Beeger (Tin Hau)
   v70 => [b112,b113,b114,b115,b116], # Lion Rock Brewery
   v71 => [b255,b256,b257,b258,b259] # Fat Rooster Brewing Co
 
