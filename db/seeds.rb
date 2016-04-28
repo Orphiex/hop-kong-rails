@@ -6267,7 +6267,7 @@ menus = {
   v66 => [b1], # Itchi
   v67 => [b1], # Ruggers
   v68 => [b1], # Beeger (KT)
-  v69 => [b1], # Beeger (Tin Hau)
+  v69 => [b1,b2.b3.b4], # Beeger (Tin Hau)
   v70 => [b112,b113,b114,b115,b116], # Lion Rock Brewery
   v71 => [b255,b256,b257,b258,b259] # Fat Rooster Brewing Co
 
