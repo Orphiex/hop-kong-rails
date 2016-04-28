@@ -1281,8 +1281,10 @@ latitude: 22.3627839,
 longitude: 114.1333093,
 has_tap: true
 })
-v61vt1 = VendorType.create(vendor_type: "Retail Store")
+v61vt1 = VendorType.create(vendor_type: "Brewery")
+v61vt2 = VendorType.create(vendor_type: "Retail Store")
 v61.vendor_types << v61vt1
+v61.vendor_types << v61vt2
 
 
 v62 = Vendor.create({
@@ -5676,9 +5678,461 @@ abv: 5.4,
 name_image: "http://i.imgur.com/mz7ZIMD.png",
 brewery_image: "http://i.imgur.com/Q1eljxN.png",
 country_image: "http://i.imgur.com/PflNAJq.png",
-simpstyle_image: "", # amber
+simpstyle_image: "",
 barcode: "0"
 })
+
+
+b261 = Beer.create({
+name: "Whistler Valley Trail Chestnut Ale",
+brewery: "Whistler Brewing Company",
+importer: "Thirsty Brothers",
+country: "Canada",
+style: "Chestnut Ale",
+simpstyle: "Fruit Beer",
+abv: 5.0,
+name_image: "http://i.imgur.com/JMVLKfe.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/JMVLKfe.jpg",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b262 = Beer.create({
+name: "Whistler Black Tusk Ale",
+brewery: "Whistler Brewing Company",
+importer: "Thirsty Brothers",
+country: "Canada",
+style: "Dark Ale",
+simpstyle: "Other",
+abv: 5.0,
+name_image: "http://i.imgur.com/JMVLKfe.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/JMVLKfe.jpg",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b263 = Beer.create({
+name: "Whistler Powder Mountain Lager",
+brewery: "Whistler Brewing Company",
+importer: "Thirsty Brothers",
+country: "Canada",
+style: "Lager",
+simpstyle: "Lager",
+abv: 5.0,
+name_image: "http://i.imgur.com/JMVLKfe.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/JMVLKfe.jpg",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b264 = Beer.create({
+name: "BrewDog Dog C",
+brewery: "BrewDog",
+importer: "Thirsty Brothers",
+country: "Scotland",
+style: "Imperial Stout",
+simpstyle: "Porter / Stout",
+abv: 5.1,
+name_image: "http://i.imgur.com/ulrll8Y.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/ulrll8Y.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b265 = Beer.create({
+name: "BrewDog Paradox Compass Box",
+brewery: "BrewDog",
+importer: "Thirsty Brothers",
+country: "Scotland",
+style: "Imperial Stout",
+simpstyle: "Porter / Stout",
+abv: 15.0,
+name_image: "http://i.imgur.com/ulrll8Y.jpg", # BREWERY PLACEHOLDER
+brewery_image:"http://i.imgur.com/ulrll8Y.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b266 = Beer.create({
+name: "BrewDog Hello My Name is Holy Moose",
+brewery: "BrewDog",
+importer: "Thirsty Brothers",
+country: "Scotland",
+style: "IPA",
+simpstyle: "IPA",
+abv: 5.0,
+name_image: "http://i.imgur.com/ulrll8Y.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/ulrll8Y.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b267 = Beer.create({
+name: "BrewDog Vagabond Pale Ale",
+brewery: "BrewDog",
+importer: "Thirsty Brothers",
+country: "Scotland",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 4.5,
+name_image: "http://i.imgur.com/ulrll8Y.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/ulrll8Y.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b268 = Beer.create({
+name: "SteamWorks Pale Ale",
+brewery: "SteamWorks Brewing Company",
+importer: "Thirsty Brothers",
+country: "Canada",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.2,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b269 = Beer.create({
+name: "SteamWorks Pilsner",
+brewery: "SteamWorks Brewing Company",
+importer: "Thirsty Brothers",
+country: "Canada",
+style: "Pilsner",
+simpstyle: "Lager",
+abv: 5.0,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b270 = Beer.create({
+name: "Lord Nelson Three Sheets Pale Ale",
+brewery: "Lord Nelson Brewery Hotel",
+importer: "Tramline Liquor Company",
+country: "Australia",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 4.9,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b271 = Beer.create({
+name: "Huyghe Brewery Delirium Tremens",
+brewery: "Huyghe Brewery",
+importer: "Tramline Liquor Company",
+country: "Belgium",
+style: "Blonde",
+simpstyle: "Blonde / Golden Ale",
+abv: 8.5,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b272 = Beer.create({
+name: "Huyghe Brewery Delirium Nocturnum",
+brewery: "Huyghe Brewery",
+importer: "Tramline Liquor Company",
+country: "Belgium",
+style: "Belgian Strong Ale",
+simpstyle: "Other",
+abv: 8.5,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/sXPpHZh.png", # Canada
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+
+b273 = Beer.create({
+name: "Yeastie Boys White Noise",
+brewery: "Yeastie Boys",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "White Beer",
+simpstyle: "Wheat Beer",
+abv: 4.4,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+
+b274 = Beer.create({
+name: "Yeastie Boys Stairdancer",
+brewery: "Yeastie Boys",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 4.4,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+
+b275 = Beer.create({
+name: "Yeastie Boys Rex Attitude",
+brewery: "Yeastie Boys",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "Golden Ale",
+simpstyle: "Blonde / Golden Ale",
+abv: 7.0,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b276 = Beer.create({
+name: "Yeastie Boys Pot Kettle Black",
+brewery: "Yeastie Boys",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "Black IPA",
+simpstyle: "IPA",
+abv: 6.0,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b277 = Beer.create({
+name: "Yeastie Boys Digital IPA",
+brewery: "Yeastie Boys",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "IPA",
+simpstyle: "IPA",
+abv: 7.0,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b278 = Beer.create({
+name: "Yeastie Boys Hu Da Wa Strong",
+brewery: "Yeastie Boys",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "Amber Ale",
+simpstyle: "Amber Ale",
+abv: 6.8,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b279 = Beer.create({
+name: "Invercargill Pitch Black Stout",
+brewery: "Invercargill Brewery",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "Black Stout",
+simpstyle: "Porter / Stout",
+abv: 4.5,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b280 = Beer.create({
+name: "Invercargill B Man",
+brewery: "Invercargill Brewery",
+importer: "Tramline Liquor Company",
+country: "New Zealand",
+style: "Pilsner",
+simpstyle: "Lager",
+abv: 5.2,
+name_image: "",
+brewery_image: "",
+country_image: "http://i.imgur.com/yrVakQQ.png", # New Zealand
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b281 = Beer.create({
+name: "Williams Brothers Redact",
+brewery: "Williams Brothers Heather Ales",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "Red Ale",
+simpstyle: "Other",
+abv: 4.4,
+name_image: "http://i.imgur.com/XsrqkCf.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/XsrqkCf.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b282 = Beer.create({
+name: "Williams Brothers Joker IPA",
+brewery: "Williams Brothers Heather Ale",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "IPA",
+simpstyle: "IPA",
+abv: 5.0,
+name_image: "http://i.imgur.com/XsrqkCf.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/XsrqkCf.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b283 = Beer.create({
+name: "Williams Brothers Ebulum",
+brewery: "Williams Brothers Heather Ale",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "Black Ale",
+simpstyle: "Other",
+abv: 6.5,
+name_image: "http://i.imgur.com/XsrqkCf.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/XsrqkCf.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b284 = Beer.create({
+name: "Stewart Brewing Radical Road",
+brewery: "Stewart (UK)",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "IPA",
+simpstyle: "IPA",
+abv: 6.4,
+name_image: "http://i.imgur.com/BHqeEmL.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/BHqeEmL.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b285 = Beer.create({
+name: "Stewart Brewing Ka Pai",
+brewery: "Stewart (UK)",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "Pale Ale",
+simpstyle: "Pale Ale",
+abv: 5.2,
+name_image: "http://i.imgur.com/BHqeEmL.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/BHqeEmL.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b286 = Beer.create({
+name: "Stewart Brewing First World Problems",
+brewery: "Stewart (UK)",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "Belgian Ale",
+simpstyle: "Other",
+abv: 6.2,
+name_image: "http://i.imgur.com/BHqeEmL.jpg", # BREWERY PLACEHOLDER
+brewery_image: "http://i.imgur.com/BHqeEmL.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b287 = Beer.create({
+name: "Drygate Outaspace Apple Ale",
+brewery: "Drygate Brewing Company",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "Fruit Beer",
+simpstyle: "Fruit Beer",
+abv: 4.7,
+name_image: "http://i.imgur.com/mbj7Qjx.jpg",
+brewery_image: "http://i.imgur.com/iXkJJLe.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
+
+b288 = Beer.create({
+name: "Drygate Gladeye IPA",
+brewery: "Drygate Brewing Company",
+importer: "Tramline Liquor Company",
+country: "Scotland",
+style: "IPA",
+simpstyle: "IPA",
+abv: 5.5,
+name_image: "http://i.imgur.com/FhM2sKg.jpg",
+brewery_image: "http://i.imgur.com/iXkJJLe.jpg",
+country_image: "http://i.imgur.com/AMU7KUo.png", # Scotland
+simpstyle_image: "",
+barcode: "0"
+})
+
 
 
 b300 = Beer.create({
@@ -5758,7 +6212,7 @@ menus = {
   v11 => [b8, b18, b28, b38, b48], # Craftissimo (SW)
   v12 => [b8, b18, b28, b38, b48], # Craftissimo (TST East)
   v13 => [b9, b19, b29, b39, b49], # Crafty Cow
-  v14 => [b1], # De Belgie
+  v14 => [b271, b272], # De Belgie
   v15 => [b13, b23, b33, b43, b53], # Granville Island
   v16 => [b83, b84], # Gweilo Beer
   v17 => [b1], # HK BrewCraft
@@ -5786,15 +6240,15 @@ menus = {
   v39 => [b131,b132], # Yardley Brothers
   v40 => [b127,b128,b129,b130], # Young Master
   v41 => [b1], # Lily & Bloom
-  v42 => [b1], # Hooked
+  v42 => [b9,b10,b11,b12,b18,b19,b22], # Hooked
   v43 => [b1], # Beer & Fish (Central)
-  v44 => [b1], # White Beard (Pier 7)
-  v45 => [b1], # White Beard (SoHo)
+  v44 => [b9,b10,b11,b12], # White Beard (Pier 7)
+  v45 => [b9,b10,b11,b12], # White Beard (SoHo)
   v46 => [b1], # 65 Peel
   v47 => [b1], # Mavericks
   v48 => [b1], # The Beach House
   v49 => [b1], # Stone Nullah Tavern
-  v50 => [b1], # Brewdog
+  v50 => [b199,b200,b201,b202], # Brewdog
   v51 => [b1,b9,b14,b21,b95,b101], # Duddels
   v52 => [b1], # Pizzeria JacoMax (QB)
   v53 => [b1], # Pizzeria JacoMax (SW)
@@ -5815,7 +6269,7 @@ menus = {
   v68 => [b1], # Beeger (KT)
   v69 => [b1], # Beeger (Tin Hau)
   v70 => [b112,b113,b114,b115,b116], # Lion Rock Brewery
-  v71 => [b1] # Fat Rooster Brewing Co
+  v71 => [b255,b256,b257,b258,b259] # Fat Rooster Brewing Co
 
 
 }
